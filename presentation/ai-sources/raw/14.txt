@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+TAPIS
+
+</title>
+<meta charset='utf-8' content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<link href='/favicon.ico' rel='shortcut icon'>
+<meta content='/tapis/attachment_files?locale=lv' name='tapis-attachment-files-path'>
+<meta content='{&quot;day_names&quot;:[&quot;Sv.&quot;,&quot;P.&quot;,&quot;O.&quot;,&quot;T.&quot;,&quot;C.&quot;,&quot;Pk.&quot;,&quot;S.&quot;],&quot;month_names&quot;:[&quot;janvārī&quot;,&quot;februārī&quot;,&quot;martā&quot;,&quot;aprīlī&quot;,&quot;maijā&quot;,&quot;jūnijā&quot;,&quot;jūlijā&quot;,&quot;augustā&quot;,&quot;septembrī&quot;,&quot;oktobrī&quot;,&quot;novembrī&quot;,&quot;decembrī&quot;],&quot;month_names_short&quot;:[&quot;Janv&quot;,&quot;Febr&quot;,&quot;Marts&quot;,&quot;Apr&quot;,&quot;Maijs&quot;,&quot;Jūn&quot;,&quot;Jūl&quot;,&quot;Aug&quot;,&quot;Sept&quot;,&quot;Okt&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;tday&quot;:&quot;diena&quot;,&quot;tdays&quot;:&quot;dienas&quot;,&quot;tmonth&quot;:&quot;mēnesis&quot;,&quot;tmonths&quot;:&quot;translation missing: lv.datetime.prompts.months&quot;,&quot;tyear&quot;:&quot;gads&quot;,&quot;tyears&quot;:&quot;gadi&quot;,&quot;delete_found_data&quot;:&quot;Vai tiešām dzēst datu sasaisti?&quot;,&quot;time_only_title&quot;:&quot;Izvēlieties laiku&quot;,&quot;time_text&quot;:&quot;Laiks&quot;,&quot;hour_text&quot;:&quot;Stundas&quot;,&quot;minute_text&quot;:&quot;Minūtes&quot;,&quot;second_text&quot;:&quot;Sekundes&quot;,&quot;millisec_text&quot;:&quot;Milisekundes&quot;,&quot;timezone_text&quot;:&quot;Laika zona&quot;,&quot;current_text&quot;:&quot;Šobrīd&quot;,&quot;close_text&quot;:&quot;Izvēlēties&quot;,&quot;format_no_matches&quot;:&quot;Nav atrasts&quot;,&quot;select_some_options&quot;:&quot;Sāciet rakstīt tekstu un izvēlieties vērtības&quot;,&quot;format_searching&quot;:&quot;Meklē...&quot;,&quot;format_input_too_short&quot;:&quot;Lūdzu ievadiet par simbol_count simboliem vairāk&quot;,&quot;header_text&quot;:&quot;TAPIS brīdinājums&quot;,&quot;cancel_text&quot;:&quot;Nē&quot;,&quot;ok_text&quot;:&quot;Jā&quot;,&quot;button_highlight&quot;:&quot;&quot;,&quot;close_modal&quot;:&quot;Aizvērt&quot;,&quot;type_error&quot;:&quot;Failam {file} ir nederīgs paplašinājums. Atļautie paplašinājumi ir: {extensions}.&quot;,&quot;server_error&quot;:&quot;Notikusi sistēmas kļūda&quot;,&quot;notification_text&quot;:&quot;TAPIS paziņojums&quot;,&quot;browser_notification_text&quot;:&quot;Veiksmīgai sistēmas izmantošanai jāizmanto jaunākās pārlūkprogrammu versijas\u003cbr\u003evai tādas, kuras nav vecākas par: IE7, Firefox 3.5, Chrome 6, Opera 9, Safari 5&quot;}' name='tapis-ui-translations'>
+
+<link rel="stylesheet" media="screen" href="/assets/application-5b9b36f5c031543dab660654ef93cd300a3150b5bfbdbe00688ba200c4ba48f3.css" />
+<link rel="stylesheet" media="print" href="/assets/print-828782307849a0dc549c77dc90cfe48882cb9f2b8071c45346d8085b2f438ffc.css" />
+
+<script src="/assets/application-226dbc10f2178ae3744eaac72f577c484efdde7f5c37335d1ade408bfc44fb0f.js"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fIkVRwjsdvWGDGzNf7ji+yzPdnpwJ4hq3k8baqk0HNcLplSMeEGFowq4fGUWF/XnAnjEY75tRMfFkFg5/exMPQ==" />
+<meta content='UA-60943184-1' name='tapis-ga-tracking-code'>
+
+</head>
+<body id='bootstrap-js'>
+<div class='container'>
+<div id='header'>
+<div class='navbar container'>
+<a class="logo" href="/tapis/lv">TAPIS</a>
+<ul class='nav main'>
+</ul>
+<ul class='pull-right nav notification'>
+</ul>
+<ul class='pull-right nav user'>
+</ul>
+
+</div>
+</div>
+<div id='action-bar'>
+<div class='container'>
+<h1 class='title'>
+Teritorijas attīstības plānošanas informācijas sistēma
+</h1>
+
+</div>
+</div>
+
+
+
+<div class='pub' id='content'>
+
+<div class='hide' id='flash_panel'>
+<div class='alert alert-alert' data-alert>
+<a class='close' href='#'>×</a>
+<div class='flash-message'></div>
+</div>
+</div>
+
+<div class='row'>
+<div class='span6 tapis-login'>
+<div class='login-image'>
+<div class='login-info'>
+<div class='text-block'>
+Dokumentu izstrāde
+</div>
+</div>
+<div class='login-block'>
+<div class='login-buttons'>
+<a class="btn" href="/users/latvija">Pieslēgties sistēmai</a>
+<a id='cannot_login_link'>
+Neizdodas pieslēgties?
+</a>
+</div>
+</div>
+</div>
+<div class='login-explanation'>
+<p class='intro'>
+Teritorijas attīstības plānošanas informācijas sistēma (TAPIS) nodrošina:<ul><li>teritorijas attīstības plānošanas dokumentu izstrādes procesu atbalstu;</li><li>visu plānošanas līmeņu teritorijas attīstības plānošanas dokumentu teksta un grafisko daļu datu izstrādi, publicēšanu un uzturēšanu;</li><li>datu apmaiņu ar citām valsts informācijas sistēmām;</li><li>publisko apspriešanu;</li><li>elektronisko pakalpojumu saņemšanu.</li></ul>
+</p>
+</div>
+</div>
+<div class='span6 geoportal-link'>
+<div class='login-image'>
+<div class='login-info'>
+<div class='text-block'>
+Dokumentu meklēšana un apskatīšana, <br>līdzdalība publiskajā apspriešanā
+</div>
+</div>
+<div class='login-block'>
+<div class='login-buttons'>
+<a class="btn geoportal" target="_blank" href="https://geolatvija.lv/geo/tapis">Atvērt ĢeoLatvija.lv</a>
+</div>
+</div>
+</div>
+<div class='login-explanation'>
+<p class='intro'>
+Portālā ĢeoLatvija.lv sabiedrība - iedzīvotāji un komersanti var ērti meklēt un saņemt nepieciešamo teksta un grafisko informāciju par teritorijas attīstības plānošanu, tai skaitā, piedalīties plānošanas dokumenta publiskajās apspriešanās iesniedzot priekšlikumus elektroniski, kā arī saņemt paziņojumus par interesējošo dokumentu izstrādi. <br> Portālā Latvija.lv var saņemt TAPIS sagatavotos elektroniskos pakalpojumus izziņu veidā.
+</p>
+</div>
+</div>
+</div>
+<div class='cannot_login_modal hidden'>
+<fieldset>
+<div class='modal-header'>
+<h2>Neizdodas pieslēgties?</h2>
+</div>
+<div class='modal-body'>
+Ja lietotājam pēc autentifikācijas sistēma atgriež kļūdas paziņojumu „Nav tiesību piekļūt šim resursam.”, tad tas nozīmē, ka nav piešķirtas lietotāja tiesības un nepieciešams sazināties ar Teritorijas attīstības plānošanas sistēmas (turpmāk - TAPIS) pārzini par tiesību izveidošanu.<br><br>TAPIS tiesības plānošanas dokumentu izstrādes videi tiek piešķirtas uz iesnieguma pamata un pēc to piešķiršanas lietotājam pirmreizēji autentificējoties sistēmā ir jāpiekrīt sistēmas standarta izmantošanas noteikumiem.<br><br>Par tiesību piešķiršanu vai autentificēšanās kļūdu gadījumā lūdzu sazināties ar TAPIS pārzini izmantojot <a href='mailto:tapis.palidziba@varam.gov.lv'>tapis.palidziba@varam.gov.lv</a></li></ol>
+</div>
+<div class='modal-footer'>
+<a class='btn' data-dismiss='modal'>
+Aizvērt
+</a>
+</div>
+</fieldset>
+
+</div>
+
+</div>
+<div id='footer'>
+<address class='contact'>
+Viedās administrācijas un reģionālās attīstības ministrija
+<br>
+Peldu iela 25, Rīga, LV-1494
+<br>
+Tālrunis: 27 826 080, 26 824 756, e-pasts:
+<a href='mailto:tapis.palidziba@varam.gov.lv'>tapis.palidziba@varam.gov.lv</a>
+<br>
+Versija: 2.2.5.2R.55a54 14.09.2026 17:59 (tapis_prod)
+</address>
+<div class='logos'>
+<div>
+<img alt="VARAM" src="/assets/logo/logo_varam-680875c5fbbd937ea14fe67daa7967a6ffbd79752bcf74865a0cd3483947f729.svg" />
+</div>
+<div>
+<div class='funds'>
+<img alt="KF" src="/assets/logo/logo_kf-998e04c4917229eae776e677035180cdce22231cc2d32369a27eb35a4b5d054e.png" />
+<img alt="ESF" src="/assets/logo/logo_esf-1601adfd617b067c71c4c5926b5590ade84d1e956ea8641edf36d08298162e24.png" />
+<img alt="ERAF" src="/assets/logo/logo_eraf-dd5c9ac23b1c468c6a8a74132483709ef47dbed870ce7224bf61755c1be0c64c.png" />
+</div>
+<div class='slogan'>
+<img alt="SAUKLIS" src="/assets/logo/logo_es_slogan-bbd5feb849e6c288b862badf6943a36f5dad2602ebc390f92399f2f69f0fb05b.png" />
+</div>
+</div>
+<div>
+<img alt="ES" src="/assets/logo/logo_es-daa467f18f8dee276bd06199c47610ba29ad69956247154af544f9a15b4e10ce.png" />
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>

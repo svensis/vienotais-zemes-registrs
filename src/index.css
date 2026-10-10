@@ -1,0 +1,2080 @@
+/*
+ * Vienotais Zemes Reģistrs — map-first, Latvija.gov.lv / VDAA UX alignment.
+ *
+ * Tokens sampled from the public portal (May 2026 redesign):
+ * Ubuntu type, calm blue-tint surfaces, carmine accent for links
+ * and focus, charcoal primary buttons, WCAG 2.1 AA contrasts.
+ * Not the gated VDAA Storybook SDK — principles + public look.
+ *
+ * Map stays the interface. Chrome is solid portal surfaces,
+ * not iOS glass. Motion is short and calm; reduced-motion respected.
+ */
+
+:root {
+  /* From latvija.gov.lv computed styles, 2026-10 */
+  --bg: #f4f7fb;
+  --ink: #1c1c1c;
+  --muted: #4a4e56;
+  --faint: #5c6570;
+  --line: #c1d2e5;
+  --surface: #ffffff;
+  --surface-tint: #e9f2fc;
+  --accent: #a01b36;
+  --accent-deep: #7d1529;
+  --btn-dark: #2d313b;
+  /* Map semantics keep readable blues/oranges on the basemap. */
+  --blue: #2b6cb0;
+  --blue-deep: #1a4f8c;
+  --green: #1b6b38;
+  --orange: #c45c00;
+  --red: #a01b36;
+  --red-deep: #7d1529;
+
+  /* Portal-like materials: opaque cards, hairline borders, soft depth. */
+  --glass: #ffffff;
+  --glass-strong: #ffffff;
+  --glass-edge: #c1d2e5;
+  --shadow: 0 1px 2px rgba(28, 28, 28, 0.06), 0 8px 24px rgba(28, 28, 28, 0.1);
+  --radius: 8px;
+  --radius-sm: 6px;
+  --focus-ring: 0 0 0 3px rgba(160, 27, 54, 0.35);
+
+  /* Layout */
+  --gap: 16px;
+  --panel-w: 420px;
+  --search-w: 380px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* Calm ease — shorter than product springs, still smooth. */
+  --spring: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --spring-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  color-scheme: light;
+}
+
+@supports (transition-timing-function: linear(0, 1)) {
+  :root {
+    --spring: linear(
+      0, 0.006, 0.025 2.8%, 0.101 6.1%, 0.539 18.9%, 0.721 25.3%, 0.849 31.5%, 0.937 38.1%, 0.968 41.8%,
+      0.991 45.7%, 1.006 50.1%, 1.015 55%, 1.017 63.9%, 1.001
+    );
+    --spring-soft: linear(
+      0, 0.0085 1.9%, 0.0331 4.2%, 0.1295 9.6%, 0.2603 15%, 0.4246 21.3%, 0.6097 28.4%, 0.7692 36%, 0.8955 44.2%,
+      0.9829 53.1%, 1.0267 62.4%, 1.0408 71.5%, 1.0301 80.5%, 1.0109 90.4%, 1
+    );
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  color: var(--ink);
+  background: var(--bg);
+  /* Same face as latvija.gov.lv; local/system Ubuntu if the webfont is blocked. */
+  font-family: Ubuntu, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.app {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+/* Shared floating chrome — solid portal card, not frosted glass. */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--shadow);
+}
+
+/* ---------------------------------------------------------------- map */
+
+.map-root {
+  position: absolute;
+  inset: 0;
+  background: #e8e6df;
+}
+
+.leaflet-container {
+  font-family: inherit;
+  background: #e8e6df;
+}
+
+/* Attribution stays legal but quiet: tiny, left, glass. */
+.leaflet-control-attribution {
+  margin: 0 0 8px 8px !important;
+  padding: 2px 8px !important;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6) !important;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.leaflet-bottom.leaflet-right {
+  transition: right 700ms var(--spring-soft);
+}
+
+.leaflet-control-zoom {
+  overflow: hidden;
+  border: 1px solid var(--line) !important;
+  border-radius: var(--radius) !important;
+  background: var(--surface);
+  box-shadow: var(--shadow) !important;
+}
+
+.leaflet-control-zoom a {
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  border: 0 !important;
+  background: transparent !important;
+  color: var(--ink) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+.leaflet-control-zoom-in {
+  border-bottom: 1px solid var(--line) !important;
+}
+
+/*
+ * LVĢMC paints flood extents in a pale yellow that vanishes on OSM.
+ * Rotating the hue turns that yellow into water blue; the grey
+ * hatching for threatened buildings has no hue and stays put.
+ */
+.flood-tiles {
+  filter: hue-rotate(185deg) saturate(2.8) contrast(1.15);
+}
+
+/* The selected parcel breathes once on arrival, then holds. */
+path.parcel-selected {
+  stroke-linejoin: round;
+  animation: parcelIn 900ms var(--spring-soft) both;
+  filter: drop-shadow(0 0 8px rgba(43, 108, 176, 0.55));
+}
+
+@keyframes parcelIn {
+  0% {
+    fill-opacity: 0;
+    stroke-width: 9;
+    stroke-opacity: 0;
+  }
+  45% {
+    fill-opacity: 0.4;
+    stroke-opacity: 1;
+  }
+  100% {
+    fill-opacity: 0.22;
+    stroke-width: 3;
+  }
+}
+
+/*
+ * On the flood layer, blue means water — and only water.
+ * The selected parcel drops its blue fill and becomes a crimson
+ * outline (the portal accent), so a dry parcel never looks flooded.
+ * !important is needed to beat the parcelIn keyframes.
+ */
+.flood-mode path.parcel-selected {
+  fill-opacity: 0 !important;
+  stroke: var(--accent, #a01b36);
+  stroke-width: 3.5px;
+  filter: drop-shadow(0 0 6px rgba(160, 27, 54, 0.45));
+}
+
+/*
+ * Buildings on the selected parcel. System orange against the
+ * blue parcel reads as a second layer, not a second selection.
+ * Each footprint springs in (slight overshoot, then settles);
+ * the per-building delay is set inline from MapView.
+ */
+path.building-lit {
+  stroke-linejoin: round;
+  /*
+   * backwards, not both: once the spring settles the path falls back
+   * to Leaflet's own attributes, so :hover / selected can still win.
+   */
+  animation: buildingIn 700ms var(--spring-soft) backwards;
+  filter: drop-shadow(0 0 6px rgba(255, 159, 10, 0.6));
+}
+
+@keyframes buildingIn {
+  0% {
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    stroke-width: 6;
+  }
+  55% {
+    fill-opacity: 0.75;
+    stroke-opacity: 1;
+  }
+  100% {
+    fill-opacity: 0.55;
+    stroke-width: 1.5;
+  }
+}
+
+/*
+ * Footprints are buttons now. Hover lifts the glow a notch so the
+ * pointer reads "tappable" before the click (HIG: clear affordance).
+ */
+path.building-lit {
+  cursor: pointer;
+  transition: fill-opacity 220ms ease, stroke-width 420ms var(--spring), filter 220ms ease;
+}
+
+path.building-lit:hover {
+  fill-opacity: 0.72;
+  stroke-width: 2.5;
+  filter: drop-shadow(0 0 10px rgba(255, 159, 10, 0.85));
+}
+
+/*
+ * The building whose card is open: deeper fill plus a white halo,
+ * so it separates from its orange neighbours without a new colour.
+ * The halo is a second drop-shadow, not a stroke, so the outline
+ * the register drew stays exactly as drawn.
+ */
+path.building-lit.building-selected {
+  fill-opacity: 0.85;
+  stroke: #fff;
+  stroke-width: 2.5;
+  filter: drop-shadow(0 0 0.5px rgba(0, 0, 0, 0.45)) drop-shadow(0 0 12px rgba(255, 159, 10, 0.95));
+  animation: buildingPick 520ms var(--spring) backwards;
+}
+
+@keyframes buildingPick {
+  0% {
+    stroke-width: 7;
+    stroke-opacity: 0;
+  }
+  100% {
+    stroke-width: 2.5;
+    stroke-opacity: 1;
+  }
+}
+
+/* Hover hint over a footprint: a small glass capsule, not Leaflet's box. */
+.leaflet-tooltip.building-tip {
+  padding: 4px 10px;
+  border: 1px solid var(--glass-edge);
+  border-radius: 999px;
+  background: var(--glass-strong);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.leaflet-tooltip.building-tip::before {
+  display: none;
+}
+
+/* Motion off: the glow still lands, it just does not animate. */
+@media (prefers-reduced-motion: reduce) {
+  path.building-lit,
+  path.building-lit.building-selected {
+    animation: none;
+    transition: none;
+  }
+}
+
+/*
+ * The tap ripple that shows the click landed while the parcel loads.
+ *
+ * Leaflet parks the marker with an inline transform: translate3d(x,y,0).
+ * A CSS transform (or a scale keyframe) on THIS same element replaces
+ * that translate, and the circle jumps to the map's top-left — which is
+ * exactly what `transform: none !important` used to do here. Never touch
+ * transform on the outer shell; only the inner ring may scale.
+ */
+.click-ripple {
+  background: none !important;
+  border: 0 !important;
+  /* Kill inherited animations only. Leave transform alone for Leaflet. */
+  animation: none !important;
+  overflow: visible;
+}
+
+.click-ripple-ring {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(43, 108, 176, 0.28);
+  border: 2px solid var(--blue);
+  transform-origin: center center;
+  pointer-events: none;
+  animation: ripple 1200ms ease-out infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.4);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------------------- search */
+
+.search {
+  position: absolute;
+  z-index: 500;
+  top: calc(var(--gap) + var(--safe-top));
+  left: var(--gap);
+  width: var(--search-w);
+  padding: 14px 14px 12px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  animation: floatIn 480ms var(--spring-soft) both;
+}
+
+.brand {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0 2px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.brand-name {
+  flex: 1;
+  min-width: 0;
+}
+
+.brand svg {
+  flex: none;
+  margin-top: 1px;
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+}
+
+.info-btn {
+  flex: none;
+  margin-left: auto;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-tint);
+  color: var(--accent-deep);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.info-btn:hover {
+  background: #d7e6f7;
+  color: var(--accent);
+}
+
+.info-btn:active {
+  transform: none;
+}
+
+/* Baušlis 8–9: label is a call to action, helper stays visible. */
+.search-label {
+  display: block;
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.search-help {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.search-field:focus-within {
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+
+.search-field input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.search-field input::placeholder {
+  color: var(--faint);
+}
+
+.clear {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(60, 60, 67, 0.28);
+  color: #fff;
+}
+
+.clear svg {
+  width: 12px;
+  height: 12px;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(60, 60, 67, 0.2);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 700ms linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.suggest {
+  margin: 8px 0 0;
+  padding: 4px;
+  list-style: none;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  animation: pop 320ms var(--spring) both;
+  transform-origin: top center;
+}
+
+.suggest button {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 10px;
+  text-align: left;
+  transition: background 150ms ease;
+}
+
+.suggest button:hover,
+.suggest button:focus-visible {
+  background: var(--blue);
+  color: #fff;
+}
+
+.suggest button:hover span,
+.suggest button:focus-visible span {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.suggest strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.suggest span {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-note {
+  margin: 8px 4px 0;
+  color: var(--red-deep);
+  font-size: 13px;
+}
+
+/* ------------------------------------------------------------- layers */
+
+.layers {
+  position: absolute;
+  z-index: 480;
+  top: calc(var(--gap) + var(--safe-top));
+  left: calc(var(--search-w) + var(--gap) * 2);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: stretch;
+  /* Never spill past the viewport (or the open report panel). */
+  max-width: min(100%, calc(100vw - var(--search-w) - var(--gap) * 3));
+  animation: floatIn 800ms 80ms var(--spring-soft) both;
+}
+
+/* Karte / Satelīts — bottom-left, clear of attribution and zoom. */
+.basemap-switch {
+  position: absolute;
+  z-index: 480;
+  left: var(--gap);
+  bottom: calc(28px + var(--safe-bottom));
+  width: min(220px, calc(100vw - var(--gap) * 2));
+  animation: floatIn 800ms 120ms var(--spring-soft) both;
+}
+
+/* With a report open, keep the picker out from under the panel. */
+.app:has(.panel) .layers {
+  max-width: min(
+    100%,
+    calc(100vw - var(--search-w) - var(--panel-w) - var(--gap) * 4)
+  );
+}
+
+.segmented {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  width: 100%;
+  min-width: 0;
+  padding: 3px;
+  border-radius: var(--radius);
+  background: var(--surface-tint);
+  isolation: isolate;
+}
+
+.segmented button {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  font-size: 13.5px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 180ms ease;
+}
+
+.segmented button[aria-pressed='true'] {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Thumb marks the active layer — short ease, portal-calm. */
+.segmented .thumb {
+  position: absolute;
+  z-index: 0;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  width: calc((100% - 6px) / var(--n));
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: 0 1px 2px rgba(28, 28, 28, 0.1);
+  transform: translateX(calc(var(--i) * 100%));
+  transition: transform 280ms var(--spring);
+}
+
+.segmented-sub button {
+  min-width: 0;
+  padding: 0 8px;
+}
+
+.pop {
+  animation: pop 550ms var(--spring) both;
+  transform-origin: top left;
+}
+
+/* ------------------------------------------------------ hint / caption */
+
+.hint-pill,
+.caption,
+.toast {
+  position: absolute;
+  z-index: 450;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.hint-pill {
+  bottom: calc(36px + var(--safe-bottom));
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: riseIn 900ms 300ms var(--spring-soft) both;
+}
+
+.pulse-dot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.pulse-dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--blue);
+  animation: ripple 1800ms ease-out infinite;
+}
+
+.caption {
+  bottom: calc(24px + var(--safe-bottom));
+  color: var(--muted);
+  font-size: 13px;
+  animation: riseIn 700ms var(--spring-soft) both;
+}
+
+.toast {
+  bottom: calc(86px + var(--safe-bottom));
+  z-index: 900;
+  background: var(--btn-dark);
+  color: #fff;
+  border-color: transparent;
+  animation: riseIn 360ms var(--spring) both;
+}
+
+.fab {
+  position: absolute;
+  z-index: 450;
+  right: var(--gap);
+  bottom: 124px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius);
+  color: var(--accent-deep);
+  background: var(--surface);
+  transition: right 320ms var(--spring-soft), opacity 200ms ease;
+}
+
+.fab:active {
+  transform: scale(0.92);
+}
+
+.fab-shift {
+  right: calc(var(--panel-w) + var(--gap) * 2);
+}
+
+.fab-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* -------------------------------------------------------------- panel */
+
+.panel {
+  position: absolute;
+  z-index: 600;
+  top: calc(var(--gap) + var(--safe-top));
+  right: var(--gap);
+  bottom: var(--gap);
+  display: flex;
+  flex-direction: column;
+  width: var(--panel-w);
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  animation: panelIn 420ms var(--spring-soft) both;
+  transition: width 420ms var(--spring-soft);
+}
+
+/*
+ * Wider reading column for long CFLA / LIAA rows.
+ * --panel-w on .app also shifts the FAB and Leaflet zoom aside.
+ */
+.panel.is-wide {
+  width: min(720px, 48vw);
+}
+
+.app:has(.panel.is-wide) {
+  --panel-w: min(720px, 48vw);
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translateX(48px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.grabber {
+  display: none;
+}
+
+.panel-head {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 14px 14px 8px 16px;
+}
+
+.panel-title {
+  min-width: 0;
+}
+
+.eyebrow {
+  margin: 0 0 2px;
+  color: var(--accent-deep);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.cad {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+  animation: textIn 360ms var(--spring-soft) both;
+}
+
+.sub {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.panel-actions {
+  display: flex;
+  gap: 2px;
+  margin-top: -4px;
+}
+
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: var(--muted);
+  transition: background 180ms ease, color 180ms ease, transform 500ms var(--spring);
+}
+
+.icon-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--ink);
+}
+
+.icon-btn:active {
+  transform: scale(0.88);
+}
+
+/*
+ * Panel filters — form controls, not a chip carousel.
+ * Select for section (fits 420px); custom switch so the
+ * “Tikai ar datiem” control is always visible (native
+ * checkboxes were drawing invisible against this chrome).
+ */
+.panel-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 14px 8px 16px;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.filter-label {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.filter-select {
+  width: 100%;
+  height: 36px;
+  padding: 0 36px 0 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%234a4e56' d='M1.1 1.2 6 6.1l4.9-4.9 1.1 1.1L6 8.3.0 2.3z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 8px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  appearance: none;
+  cursor: pointer;
+}
+
+.filter-select:hover {
+  border-color: #9eb6d0;
+}
+
+.filter-select:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+
+/* Full-width switch row — track is drawn, never a bare checkbox. */
+.filter-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-tint);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.filter-switch:hover {
+  background: #d7e6f7;
+  border-color: #9eb6d0;
+}
+
+.filter-switch:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.switch-track {
+  position: relative;
+  flex: none;
+  width: 40px;
+  height: 24px;
+  border-radius: 12px;
+  background: #c1d2e5;
+  transition: background 180ms ease;
+}
+
+.filter-switch[aria-checked='true'] .switch-track {
+  background: var(--accent);
+}
+
+.switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(28, 28, 28, 0.25);
+  transition: transform 180ms var(--spring);
+}
+
+.filter-switch[aria-checked='true'] .switch-thumb {
+  transform: translateX(16px);
+}
+
+.switch-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.switch-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.switch-hint {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/* Screen-only hide: print CSS restores these. */
+.block.is-filtered,
+.row.row-filtered {
+  display: none;
+}
+
+/*
+ * Collect progress — soft portal track + accent fill.
+ * Hidden when idle (no purple hairline left behind).
+ */
+.progress {
+  height: 3px;
+  margin: 2px 22px 6px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: transparent;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+
+.progress.on {
+  background: var(--surface-tint);
+  opacity: 1;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transform-origin: left center;
+  transition: transform 500ms var(--spring-soft);
+}
+
+.panel-scroll {
+  flex: 1;
+  min-height: 0;
+  padding: 6px 22px 28px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.block {
+  margin-top: 18px;
+}
+
+.block h3 {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Grouped list, like Settings: one rounded plate, hairline separators. */
+.rows {
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 11px 14px 12px;
+}
+
+.row + .row {
+  border-top: 0.5px solid var(--line);
+}
+
+.row-in {
+  animation: rowIn 650ms var(--spring-soft) both;
+}
+
+@keyframes rowIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.row-label {
+  color: var(--muted);
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+.row-value {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  align-items: baseline;
+  font-size: 15px;
+  line-height: 1.38;
+  word-break: break-word;
+}
+
+.value-list {
+  flex: 1 1 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*
+ * Grouped list (HIG): one atlas/LIAA card per row, hairline
+ * between items, labels wrap with pre-line so financing stays
+ * under the title instead of flattening into one sentence.
+ */
+.value-list li {
+  position: relative;
+  padding: 8px 0 10px 16px;
+  white-space: pre-line;
+  line-height: 1.42;
+}
+
+.value-list li:not(.fold) + li:not(.fold) {
+  border-top: 0.5px solid var(--line);
+}
+
+.value-list li::before {
+  content: '';
+  position: absolute;
+  top: 1.15em;
+  left: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--faint);
+}
+
+.value-list .beyond {
+  display: none;
+}
+
+.value-list .fold::before {
+  display: none;
+}
+
+.value-list .fold {
+  padding-left: 0;
+}
+
+.fold button {
+  color: var(--accent);
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.value-block {
+  white-space: pre-line;
+  line-height: 1.42;
+}
+
+.value-link {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 13.5px;
+  text-decoration: none;
+}
+
+.value-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.muted {
+  color: var(--faint);
+}
+
+/* A hit that matters is bold and red. Nothing else on the card is. */
+.adverse-text {
+  color: var(--red-deep);
+  font-weight: 650;
+}
+
+.row-adverse .value-list li::before {
+  background: var(--red);
+}
+
+.pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.pill-ok {
+  background: rgba(27, 107, 56, 0.12);
+  color: var(--green);
+}
+
+.pill-bad {
+  background: rgba(160, 27, 54, 0.12);
+  color: var(--red-deep);
+}
+
+.pill-neutral {
+  background: var(--surface-tint);
+  color: var(--ink);
+}
+
+.chip {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.chip-warn {
+  background: rgba(196, 92, 0, 0.14);
+  color: #8a4200;
+}
+
+.chip-quiet {
+  flex: 1 1 100%;
+  background: var(--surface-tint);
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.row-note {
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.35;
+}
+
+.row-note .value-link {
+  font-size: inherit;
+  margin-top: 0;
+}
+
+.row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  align-items: center;
+  color: var(--faint);
+  font-size: 11.5px;
+}
+
+.row-meta a {
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* Skeleton: a soft shimmer where a row has not landed yet. */
+.shimmer {
+  height: 16px;
+  width: 62%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgba(120, 120, 128, 0.12) 25%, rgba(120, 120, 128, 0.24) 50%, rgba(120, 120, 128, 0.12) 75%);
+  background-size: 220% 100%;
+  animation: shimmer 1.3s linear infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 120% 0;
+  }
+  to {
+    background-position: -120% 0;
+  }
+}
+
+.banner {
+  margin: 8px 0 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 59, 48, 0.1);
+  color: var(--red-deep);
+  font-size: 13.5px;
+}
+
+/* ------------------------------------------------------ company check */
+
+.company {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--surface-tint);
+  border: 1px solid var(--line);
+}
+
+.company label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.company-row {
+  display: flex;
+  gap: 8px;
+}
+
+.company input {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  outline: 0;
+  background: var(--surface);
+  font-size: 14px;
+}
+
+.company input:focus {
+  border-color: var(--accent);
+  box-shadow: var(--focus-ring);
+}
+
+.hint {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.btn {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: var(--radius-sm);
+  background: var(--btn-dark);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 160ms ease, opacity 160ms ease;
+}
+
+.btn:hover {
+  background: #1a1d24;
+}
+
+.btn:active {
+  transform: none;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.btn-quiet {
+  background: var(--surface-tint);
+  color: var(--ink);
+}
+
+.btn-quiet:hover {
+  background: #d7e6f7;
+}
+
+.panel-foot {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.panel-foot p {
+  margin: 12px 8px 0;
+  color: var(--faint);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+/* ------------------------------------------------------- building card */
+
+/*
+ * The building card sits on top of the parcel report, in the same
+ * panel (HIG: one place for detail, no modal over the map). A faint
+ * orange wash ties it to the footprint that was tapped.
+ */
+.building-card {
+  margin-top: 14px;
+  padding: 14px 14px 12px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 159, 10, 0.1), rgba(255, 159, 10, 0.03));
+  box-shadow: 0 0 0 0.5px rgba(255, 159, 10, 0.35);
+  animation: pop 560ms var(--spring) both;
+  transform-origin: top center;
+}
+
+.bcard-head {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.eyebrow-orange {
+  color: #c46a00;
+}
+
+.bcard-code {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Stat tiles: three across on the card, two on a narrow phone. */
+.bstats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.bstat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 0 0 0.5px var(--line);
+  animation: rowIn 600ms var(--spring-soft) both;
+}
+
+/* Tiles land one after another, like the footprints on the map. */
+.bstat:nth-child(2) {
+  animation-delay: 40ms;
+}
+
+.bstat:nth-child(3) {
+  animation-delay: 80ms;
+}
+
+.bstat:nth-child(4) {
+  animation-delay: 120ms;
+}
+
+.bstat:nth-child(5) {
+  animation-delay: 160ms;
+}
+
+.bstat:nth-child(6) {
+  animation-delay: 200ms;
+}
+
+.bstat-value {
+  overflow: hidden;
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bstat-value.bstat-word {
+  font-size: 14px;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.bstat-label {
+  color: var(--muted);
+  font-size: 11.5px;
+  font-weight: 500;
+}
+
+.bcard-warn {
+  color: #a15c00;
+}
+
+/* Switcher chips: one per footprint, 44 pt tall for thumbs. */
+.bchips {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.bchips::-webkit-scrollbar {
+  display: none;
+}
+
+.bchip {
+  display: inline-flex;
+  flex: none;
+  gap: 6px;
+  align-items: center;
+  max-width: 220px;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 0.5px var(--line);
+  font-size: 13px;
+  transition: background 200ms ease, color 200ms ease, transform 450ms var(--spring);
+}
+
+.bchip span {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.bchip em {
+  overflow: hidden;
+  color: var(--muted);
+  font-style: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bchip:active {
+  transform: scale(0.94);
+}
+
+.bchip.on {
+  background: var(--orange);
+  color: #fff;
+}
+
+.bchip.on em {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Building codes inside the "Būvju kontūras" row: the whole line taps. */
+.code-link {
+  color: var(--accent);
+  text-align: left;
+  white-space: pre-line;
+}
+
+.code-link:hover {
+  text-decoration: underline;
+}
+
+.value-list li.code-entry.on::before {
+  background: var(--orange);
+}
+
+.value-list li.code-entry.on .code-link {
+  color: #c46a00;
+  font-weight: 600;
+}
+
+@media (max-width: 420px) {
+  .bstats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* The card is about one building on screen; the printout is about the parcel. */
+@media print {
+  .building-card {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------- sources sheet */
+
+/*
+ * The scrim is a one-cell grid pinned to the viewport. The row is
+ * minmax(0, 1fr), not auto: an auto row grows to the sheet's full
+ * content height (~3000 px with 18 sources), which centred the sheet
+ * far below the fold where .app's overflow: hidden swallowed it.
+ * z-index sits above Leaflet's own control layer (1000).
+ */
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: max(24px, var(--safe-top)) 24px 24px;
+  background: rgba(0, 0, 0, 0.28);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  animation: fade 300ms ease both;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+.sheet {
+  display: flex;
+  flex-direction: column;
+  width: min(720px, 100%);
+  /* 100% now resolves against the definite grid cell above. */
+  max-height: min(760px, 100%);
+  min-height: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  animation: pop 360ms var(--spring) both;
+}
+
+.sheet header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 24px 24px 12px 28px;
+}
+
+.sheet h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  letter-spacing: -0.025em;
+}
+
+.sheet header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+/* The only scroller in the sheet; the header stays put above it. */
+.sheet-list {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 4px 28px 28px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sheet-list article {
+  padding: 16px 0;
+  border-top: 0.5px solid var(--line);
+}
+
+.sheet-list h3 {
+  margin: 0 0 2px;
+  font-size: 16px;
+}
+
+.sheet-list p {
+  margin: 4px 0 0;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+
+.sheet-list .owner {
+  color: var(--muted);
+}
+
+.sheet-list .limits {
+  color: var(--faint);
+}
+
+.sheet-list .links {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.sheet-list .links a {
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.sheet-list .links span {
+  color: var(--faint);
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------ keyframes */
+
+@keyframes floatIn {
+  from {
+    opacity: 0;
+    transform: translateY(-14px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 16px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* -------------------------------------------------------- tablet / phone */
+
+/*
+ * Tablet / mid widths: layer bar sits under the search card
+ * (same width), so it never slides off behind the panel.
+ */
+@media (max-width: 1280px) {
+  :root {
+    --panel-w: 380px;
+  }
+
+  .layers,
+  .app:has(.panel) .layers {
+    top: calc(var(--gap) + var(--safe-top) + 118px);
+    left: var(--gap);
+    width: min(var(--search-w), calc(100vw - var(--gap) * 2));
+    max-width: calc(100vw - var(--gap) * 2);
+  }
+
+  .segmented button {
+    padding: 0 6px;
+    font-size: 12.5px;
+  }
+}
+
+/*
+ * Phone. The search card becomes a slim bar, the layer control a
+ * horizontal scroller under it, and the panel a bottom sheet with
+ * three detents (peek / half / full) driven by data-detent and --drag.
+ */
+@media (max-width: 899px) {
+  :root {
+    --gap: 10px;
+    --search-w: calc(100vw - 20px);
+  }
+
+  .search {
+    padding: 8px;
+  }
+
+  .brand {
+    padding-bottom: 8px;
+  }
+
+  .layers,
+  .app:has(.panel) .layers {
+    top: calc(var(--gap) + var(--safe-top) + 102px);
+    left: var(--gap);
+    right: var(--gap);
+    width: auto;
+    max-width: calc(100vw - 20px);
+    overflow-x: visible;
+  }
+
+  .segmented button {
+    min-width: 0;
+    padding: 0 4px;
+    font-size: 12px;
+  }
+
+  .fab {
+    bottom: calc(24px + var(--safe-bottom));
+  }
+
+  .hint-pill {
+    bottom: calc(24px + var(--safe-bottom));
+    font-size: 13.5px;
+  }
+
+  /* Still bottom-left; lift above the sheet when a report is open. */
+  .basemap-switch {
+    bottom: calc(72px + var(--safe-bottom));
+    width: min(200px, calc(50vw - var(--gap)));
+  }
+
+  .app:has(.panel) .basemap-switch {
+    bottom: calc(38vh + var(--safe-bottom));
+  }
+
+  .leaflet-bottom.leaflet-right {
+    display: none;
+  }
+
+  .panel {
+    --h: 90dvh;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: var(--h);
+    border-radius: 12px 12px 0 0;
+    padding-bottom: var(--safe-bottom);
+    transform: translateY(calc(var(--detent-y, 44dvh) + var(--drag, 0px)));
+    transition: transform 650ms var(--spring);
+    animation: sheetIn 800ms var(--spring-soft) both;
+  }
+
+  /* Phone already uses full detent — no desktop widen control. */
+  .panel-expand {
+    display: none;
+  }
+
+  .panel.is-wide {
+    width: auto;
+  }
+
+  .app:has(.panel.is-wide) {
+    --panel-w: 380px;
+  }
+
+  .panel-filters {
+    gap: 6px;
+    padding: 0 12px 6px 14px;
+  }
+
+  .panel[data-detent='full'] {
+    --detent-y: 0px;
+  }
+
+  .panel[data-detent='half'] {
+    --detent-y: 44dvh;
+  }
+
+  .panel[data-detent='peek'] {
+    --detent-y: calc(90dvh - 168px);
+  }
+
+  .panel.dragging {
+    transition: none;
+  }
+
+  .grabber {
+    display: grid;
+    place-items: center;
+    height: 22px;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .grabber span {
+    width: 38px;
+    height: 5px;
+    border-radius: 3px;
+    background: rgba(60, 60, 67, 0.3);
+  }
+
+  .panel-head {
+    padding-top: 2px;
+  }
+
+  .cad {
+    font-size: 26px;
+  }
+
+  /*
+   * Sources sheet on a phone: an iOS-style bottom sheet. It rides up
+   * from the edge on the same soft spring as the report panel.
+   */
+  .scrim {
+    align-items: end;
+    padding: var(--safe-top) 0 0;
+  }
+
+  .sheet {
+    width: 100%;
+    max-height: 88dvh;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: var(--safe-bottom);
+    animation: sheetIn 400ms var(--spring-soft) both;
+  }
+
+  .sheet header {
+    padding: 20px 18px 10px 20px;
+  }
+
+  .sheet-list {
+    padding: 4px 20px 24px;
+  }
+
+  @keyframes sheetIn {
+    from {
+      transform: translateY(100%);
+    }
+  }
+}
+
+/* Zoom control steps aside for the panel (desktop and tablet). */
+@media (min-width: 900px) {
+  .app:has(.panel) .leaflet-bottom.leaflet-right {
+    right: calc(var(--panel-w) + var(--gap) + 4px);
+  }
+
+  .app:has(.panel) .leaflet-bottom.leaflet-left {
+    left: 0;
+  }
+}
+
+/* ---------------------------------------------------------- reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
+
+/* ----------------------------------------------------------------- print */
+
+/*
+ * One A4 page: the number, the facts, the proof links written out.
+ * Map, search and controls drop away; the panel becomes the page.
+ */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+
+  html,
+  body,
+  #root,
+  .app {
+    position: static;
+    height: auto;
+    overflow: visible;
+    background: #fff;
+  }
+
+  .map-root,
+  .search,
+  .layers,
+  .basemap-switch,
+  .hint-pill,
+  .caption,
+  .toast,
+  .fab,
+  .grabber,
+  .panel-actions,
+  .panel-filters,
+  .progress,
+  .company,
+  .panel-foot .btn,
+  .scrim {
+    display: none !important;
+  }
+
+  .panel {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    transform: none !important;
+    animation: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  /* Filters are screen-only — paper gets every section and row. */
+  .block.is-filtered {
+    display: block !important;
+  }
+
+  .row.row-filtered {
+    display: flex !important;
+  }
+
+  .panel-scroll {
+    overflow: visible;
+    padding: 0;
+  }
+
+  .panel-head {
+    padding: 0 0 8px;
+    border-bottom: 2px solid #000;
+  }
+
+  .rows {
+    background: #fff;
+    box-shadow: none;
+    border: 0.5px solid #bbb;
+  }
+
+  .row-in {
+    animation: none;
+  }
+
+  /* Tight type so a typical parcel fits one or two sheets. */
+  .panel-scroll {
+    font-size: 10.5px;
+  }
+
+  .block {
+    margin-top: 10px;
+  }
+
+  .block h3 {
+    break-after: avoid;
+  }
+
+  .row {
+    padding: 5px 8px 6px;
+    break-inside: avoid;
+  }
+
+  .row-value {
+    font-size: 11.5px;
+    line-height: 1.3;
+  }
+
+  .row-label,
+  .row-meta,
+  .row-note {
+    font-size: 9px;
+  }
+
+  /* The long machine query would swamp the page; the human Avots link stays. */
+  .row-query,
+  .fold {
+    display: none !important;
+  }
+
+  .value-list .beyond {
+    display: list-item !important;
+  }
+
+  .cad {
+    font-size: 22px;
+  }
+
+  .row-meta a::after,
+  .value-link::after {
+    content: ' (' attr(href) ')';
+    font-weight: 400;
+    word-break: break-all;
+  }
+
+  .row-meta a svg {
+    display: none;
+  }
+
+  .print-only {
+    display: block !important;
+    margin: 0 0 6px;
+    color: #555;
+    font-size: 11px;
+  }
+}
+
+.print-only {
+  display: none;
+}

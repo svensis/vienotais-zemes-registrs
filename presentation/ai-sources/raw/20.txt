@@ -1,0 +1,1613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<title>EKII.LV - KONKURSI</title>
+<base href="https://ekii.lv/" />
+<meta name="Generator" content="EMSI" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 
+
+<link rel="stylesheet" type="text/css" href="https://ekii.lv/tmp/cache/stylesheet_combined_8254da44adc2475c6830cb73a71dbaed.css" media="screen" />
+
+
+<style type="text/css">
+/*img {behavior:url("pngbehavior.htc");}*/
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2448157-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2448157-3');
+</script>
+
+</head><body>
+
+<div class="bg">
+<div class="top">
+<div class="center">
+<div class="bottom">
+
+<table width="988" border="0" class="table" cellpadding="0" cellspacing="0">
+<tr>
+	<td colspan="2" class="header_bg" width="988" height="33">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0" style="height:33px;">
+		<tr>
+		<td class="top_menu" valign="top">
+		
+<a href="https://ekii.lv/">Sākums</a>&nbsp;&nbsp;&nbsp;
+
+<a href="https://ekii.lv/index.php?page=lapas-karte">Lapas karte</a>&nbsp;&nbsp;&nbsp;
+
+<a href="https://ekii.lv/index.php?page=palidziba">Palīdzība</a>&nbsp;&nbsp;&nbsp;
+
+<a href="https://ekii.lv/index.php?page=kontakti">Kontakti</a>&nbsp;&nbsp;&nbsp;
+
+
+
+		</td>
+		<td class="lang" valign="top">
+		&nbsp;&nbsp;<a href="https://ekii.lv/">LV</a>
+&nbsp;&nbsp;<a href="https://ekii.lv/index.php?page=news">EN</a>
+
+		</td>
+		</tr>
+	</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" class="logo_bg" width="988" height="236" >
+	<table width="100%" cellpadding="0" cellspacing="0" border="0" style="height:236px;">
+		<tr>
+		<td class="logo">
+		<a href="index.php?page=home_lv"><img src="images/LVIF.png" width="186" height="70" alt="logo"/></a>
+		</td>
+		<td class="menu" valign="bottom">
+		<div class="width">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+				
+<td class="actives">
+<div class="menu1" onclick="javascript:document.location.href = 'https://ekii.lv/index.php?page=konkursi_lv';">
+<div style="height:37px; width: 158px;">
+<table cellpadding="0" cellspacing="0" border="0" class="padding"><tr><td><a href="https://ekii.lv/index.php?page=konkursi_lv">KONKURSI</a></td></tr></table>
+</div>
+</div>
+</td>
+
+
+<td>
+<div class="menu2" onclick="javascript:document.location.href = 'https://ekii.lv/index.php?page=seminari';">
+<div style="height:37px; width: 158px;">
+<table cellpadding="0" cellspacing="0" border="0" class="padding"><tr><td><a href="https://ekii.lv/index.php?page=seminari">INFORMATĪVIE MATERIĀLI</a></td></tr></table>
+</div>
+</div>
+</td>
+
+
+<td>
+<div class="menu3" onclick="javascript:document.location.href = 'https://ekii.lv/index.php?page=realizetie-projekti';">
+<div style="height:37px; width: 158px;">
+<table cellpadding="0" cellspacing="0" border="0" class="padding"><tr><td><a href="https://ekii.lv/index.php?page=realizetie-projekti">STATISTIKA</a></td></tr></table>
+</div>
+</div>
+</td>
+
+
+<td>
+<div class="menu4" onclick="javascript:document.location.href = 'https://ekii.lv/index.php?page=log-in';">
+<div style="height:37px; width: 158px;">
+<table cellpadding="0" cellspacing="0" border="0" class="padding"><tr><td><a href="https://ekii.lv/index.php?page=log-in">MONITORINGA PĀRSKATI</a></td></tr></table>
+</div>
+</div>
+</td>
+
+
+				<td>
+				<div class="menu_right"></div>
+				</td>
+				</tr>
+			</table>
+		</div>
+		</td>
+		</tr>
+	</table>
+	</td>
+</tr>
+<!-- start left menu & content -->
+<tr>
+	<td width="2" valign="top" class="left_menu">
+	</td>
+	<td width="986" valign="top" class="content">
+		<div class="navigator">
+		<a href="index.php?page=home_lv">SĀKUMLAPA</a> / <span class="lastitem">KONKURSI</span> / EKII-6
+		</div>
+		
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width="50%">
+				<div class="title">
+					Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai
+				</div>
+			</td>
+			<td align="right">
+									<img src="uploads/files/EKII/LOGO/LOGO_EKII-pa-labi-emisiju-kvotas_CMYK.png" alt="EKII logo" height="110" />
+							</td>
+		</tr>
+				<tr>
+			<td width="50%">
+				<br /><span style="font-weight:bold;color:black;">KONKURSA STATUSS</span>
+			</td>
+			<td align="right">
+				<br /><span style="font-weight:bold;color:red;">Iesniegumu pieņemšana<br />15.03.2022 - 31.12.2029 (ieskaitot)</span>
+			</td>
+		</tr>
+		</table>
+		<hr style="height:3px;background-color:#FF0000;border:0;" /><br />
+				
+		
+		
+		<script type="text/javascript" charset="utf-8">
+			function toggleChat(containerId) {
+				const container = document.getElementById(containerId);
+				if (container) {
+					container.classList.toggle('chat-hidden');
+				}
+			}
+		</script>
+		
+		<style>
+		.accordion {
+		  background-color: #ffffff;
+		  color: #444;
+		  cursor: pointer;
+		  padding: 6px;
+		  width: 100%;
+		  border: none;
+		  text-align: justify;
+		  font-weight: bold;
+		  outline: none;
+		  transition: 0.4s;
+		}
+		.active, .accordion:hover {
+		  background-color: #7aba3a;
+		}
+		.accordion:after {
+		  content: '\002B';
+		  color: #777;
+		  font-weight: bold;
+		  float: right;
+		  margin-left: 5px;
+		}
+		.active:after {
+		  content: "\2212";
+		}
+		.panel {
+		  padding: 0 18px;
+		  display: none;
+		  text-align: justify;
+		  background-color: white;
+		  overflow: hidden;
+		}
+
+		#support-launcher-wrapper {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			z-index: 9999;
+			display: flex;
+			flex-direction: row-reverse; 
+			align-items: center;
+		}
+		
+		#launcher-callout {
+			background: #4285f4; 
+			color: white;
+			padding: 10px 25px 10px 15px;
+			border-radius: 12px 0 0 12px;
+			font-family: sans-serif;
+			font-size: 16px;
+			font-weight: 500;
+			margin-right: -20px; 
+			z-index: 1; 
+			border: none;
+			white-space: nowrap;
+			pointer-events: none;
+		}
+		
+		#support-launcher {
+			width: 120px;
+			height: 120px;
+			background-color: #4285f4;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+			transition: transform 0.2s ease;
+			z-index: 2;
+		}
+
+		#support-launcher img.support-icon {
+			width: 90px;
+			height: 90px;
+			object-fit: contain;
+			display: block;
+		}
+
+		#support-launcher:hover { transform: scale(1.1); }
+
+		#chat-container {
+			position: fixed;
+			bottom: 110px;
+			right: 15px;
+			width: 800px;
+			height: 800px;
+			max-height: 80vh; /* Responsive height */
+			background: white;
+			border-radius: 15px;
+			overflow: hidden;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+			z-index: 9999;
+			display: flex;
+			flex-direction: column;
+			transition: all 0.3s ease;
+		}
+
+		#chat-iframe {
+			width: 100%;
+			flex-grow: 1;
+			border: none;
+		}
+
+		#chat-header {
+			background: #2AA63E;
+			color: white;
+			padding: 12px 15px;
+			display: flex;
+			justify-content: space-between;
+			font-family: sans-serif;
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+
+		.chat-hidden {
+			opacity: 0;
+			transform: translateY(20px) scale(0.9);
+			pointer-events: none;
+		}
+		</style>
+		<link rel="stylesheet" href="../modules/Konkurs/css/w3_s.css">
+		
+
+				
+		<style>
+        :root {
+            --primary-color: #1b4d3e;
+            --primary-hover: #143b2f;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+            --border-color: #dcdfe6;
+            --accent-color: #27ae60;
+            --info-bg: #eef6f3;
+        }
+
+		.body-calculator {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			font-size: 1rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+		
+        .calculator-container {
+            background-color: var(--card-bg);
+            max-width: 680px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+
+        select, input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+			font-size: 1rem;
+			background-color: var(--bg-color);
+			color: var(--text-color);
+        }
+
+        select:focus, input[type="number"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        input:disabled {
+            background-color: #f2f2f2;
+            cursor: not-allowed;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #f8faf9;
+            padding: 12px 16px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+        }
+
+        .checkbox-group input {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checkbox-group label {
+            margin-bottom: 0;
+            cursor: pointer;
+            font-weight: normal;
+        }
+
+        .results-card {
+            margin-top: 30px;
+            background-color: var(--info-bg);
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .results-card h2 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .result-row.total {
+            border-top: 1px solid #cbdcd5;
+            padding-top: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 1.15rem;
+            color: var(--primary-color);
+        }
+		</style>
+				
+				
+					<div id="support-launcher-wrapper">
+				<div id="support-launcher" onclick="toggleChat('chat-container')">
+					<img src="images/support_mara.png" alt="MĀRA" class="support-icon">
+				</div>
+
+				<div id="launcher-callout">Es esmu virtuālā asistente MĀRA.</br>Droši jautājiet - centīšos palīdzēt.</div>
+			</div>
+
+			<div id="chat-container" class="chat-hidden">
+				<div id="chat-header">
+					<span>Vides investīciju fonda virtuālā asistente EKII-6 konkursā (MK noteikumi Nr. 531)</span>
+					<button onclick="toggleChat('chat-container')" style="background:none; border:none; color:white; cursor:pointer;">✕</button>
+				</div>
+				<iframe 
+					src="https://ekii-6-atbalsta-asistents.ai.studio"
+					allow="microphone"		
+					id="chat-iframe">
+				</iframe>
+			</div>
+		
+		
+
+					<span style="font-weight:bold;color:black;">JAUNUMI PAR KONKURSU</span>
+			<hr style="height:3px;background-color:#999999;border:0;" /><br />
+			<!-- Displaying News Module -->
+<table class="news" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">28</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Semināra jautājumi un atbildes</strong><br />
+		<p class="wp-block-paragraph">2026. gada 17. septembrī Vides investīciju fonds rīkoja semināru par atbalsta programmu "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai", kura laikā saņēmām dalībnieku jautājumus.</p>
+<p class="wp-block-paragraph">Atbildes uz jautājumiem sagatavotas, pamatojoties uz Ministru kabineta 2026. gada 1. septembra noteikumiem Nr. 531 "Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa „Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai" nolikums" (spēkā no 12.09.2026).</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=288&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">18</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Semināra prezentācija un video </strong><br />
+		<p>2026. gada 17. septembrī Vides investīciju fonds rīkoja semināru par būtiskākajām  izmaiņām valsts atbalsta programmā “Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai”. Semināra laikā informējām par būtiskākajām izmaiņām atbalsta programmā, kas stājās spēkā 2026. gada 12. septembrī, kā arī sniedzām praktisku ieskatu programmas iesnieguma sagatavošanā.</p>
+<iframe title="YouTube video player" src="https://www.youtube.com/embed/LLnGGm1g1OA?si=aQeaOxfStMNEAPnU" frameborder="0" width="560" height="315"></iframe>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=286&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">15</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Būtiskākās izmaiņas atbalsta programmā mājsaimniecībām</strong><br />
+		<p><strong>2026. gada 12. septembrī spēkā stājās pilnveidota programma mājsaimniecībām</strong> ar plašākām atbalsta iespējām videi draudzīgu enerģijas ražošanas iekārtu iegādei. Pilnveidotā programma paredz lielāku atbalsta intensitāti Goda ģimenēm, plašākas iespējas izvēlēties un kombinēt apkures iekārtas, kā arī vienkāršotus nosacījumus atbalsta saņemšanai <strong>visā Latvijas teritorijā. </strong>Būtiskākās izmaiņas:</p>
+<ul>
+<li><strong>Palielināta atbalsta intensitāte Goda ģimenēm</strong>: atbalsta intensitāte palielināta no <strong>70 % līdz 85 %.</strong></li>
+<li><strong>Paplašināts atbalstāmo iekārtu loks</strong>: iespēja papildus iegādāties granulu kamīnus ar centrālapkures funkciju, kā arī ieviesta iespēja veidot <strong>kombinētus apkures risinājumus</strong>, izmantojot vairākas iekārtas.</li>
+<li><strong>Iespēja saglabāt esošo apkures iekārtu veidu</strong>, uzstādot jaunu siltumenerģijas ražošanas iekārtu. <strong>Palielināta </strong>elektroenerģijas <strong>uzglabāšanas</strong> iekārtas <strong>nominālā ietilpība</strong> (10 kWh).</li>
+</ul>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=283&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">02</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Apstiprinātas izmaiņas atbalsta programmā iedzīvotājiem</strong><br />
+		Lai vairāk Latvijas iedzīvotāju varētu samazināt enerģijas izmaksas un stiprinātu savu mājokļu energoneatkarību, Klimata un enerģētikas ministrija (KEM) ir pilnveidojusi atbalsta programmu mājsaimniecībām videi draudzīgu enerģijas ražošanas iekārtu iegādei. Izmaiņas paredz palielināt atbalstu Latvijas Goda ģimenēm, paplašināt atbalstāmo iekārtu loku, ļaujot veidot kombinētus apkures risinājumus.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=280&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">02</span></div>
+		<div>apr.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Monitoringa pārskata iesniegšana par saražoto enerģijas daudzumu</strong><br />
+		Vides investīciju fonds aicina atbalsta saņēmējus iesniegt <strong>monitoringa pārskatu par saražoto un patērēto enerģijas daudzumu</strong> par 2025. gada monitoringa periodu.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=267&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+</table>
+			<div id="new_hide" style="display:none;">
+			<!-- Displaying News Module -->
+<table class="news" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">25</span></div>
+		<div>febr.</div>
+		<div><span class="year">2025</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>NETO uzskaites (kWh) sistēma un monitoringa pārskatu iesniegšana</strong><br />
+		Sabiedrība ar ierobežotu atbildību "Vides investīciju fonds" atgādina, ka <strong>NETO uzskaites sistēma būs spēkā līdz 2029. gada 1. martam </strong>un mājsaimniecībām, kam ir spēkā neto uzskaites (kWh) sistēmas dalībnieks, automātiski izpildas nosacījums par vismaz 80 % no elektroenerģijas, kas gadā saražota ar saules vai vēja elektrostaciju, izmantošanu pašpatēriņam.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=248&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">10</span></div>
+		<div>dec.</div>
+		<div><span class="year">2024</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Palielina kopējo finansējumu saules paneļu, siltumsūkņu u.c. enerģiju ražojošo iekārtu iegādei</strong><br />
+		2024. gada 10. decembrī Ministru kabinets apstiprināja grozījumus 2022. gada 1. marta noteikumos Nr. 150 "Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai" nolikums", ar kuriem palielināja kopējo pieejamo finansējumu.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=238&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">18</span></div>
+		<div>okt.</div>
+		<div><span class="year">2024</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Par valsts atbalsta programmām iedzīvotājiem pēc 2024. gada 31. decembra </strong><br />
+		Klimata un enerģētikas ministrija ir <strong>sagatavojusi grozījumus Ministru kabineta noteikumos, lai līdz 2029. gada 31. decembrim</strong> turpinātu valsts sniegto atbalstu fiziskām personām iedzīvotājiem pieejamās programmās: "Siltumnīcefekta gāzu emisijas samazināšana transporta sektorā – atbalsts bezemisiju un mazemisiju transportlīdzekļu iegādei" un "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai"		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=234&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">05</span></div>
+		<div>jūl.</div>
+		<div><span class="year">2024</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Būtiskākās izmaiņas valsts atbalsta programmā enerģiju ražojošo iekārtu iegādei</strong><br />
+		2024. gada 5. jūlijā  stājās spēkā grozījumi Ministru kabineta 2022. gada 1. marta noteikumos Nr. 150 "<a href="https://likumi.lv/ta/id/330568" target="_blank">Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai" nolikums"</a> (turpmāk – MK noteikumu grozījumi). MK noteikumu grozījumi paredz <strong>paplašināt atbalstāmo projekta aktivitāšu lok</strong><strong>u</strong>, nosakot, ka vienlaikus ar saules elektrostaciju vai vēja elektrostaciju iegādi iedzīvotāji <strong>var saņemt valsts atbalstu arī par elektroenerģijas uzglabāšanas iekārtu iegādi, ja</strong> tās ietilpība būs vismaz 5 kWh liela. Maksimālais atbalsts elektroenerģijas uzglabāšanas iekārtai ir 2 500 <em>euro,</em> nepārsniedzot 70% no iekārtas iegādes izmaksām. <strong>Valsts atbalsts tikai par atsevišķas elektroenerģijas uzglabāšanas iekārtas iegādi nav paredzēts</strong>.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=228&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">03</span></div>
+		<div>jūl.</div>
+		<div><span class="year">2024</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Palielina kopējo finansējumu saules paneļu, siltumsūkņu u.c. enerģiju ražojošo iekārtu iegādei</strong><br />
+		Ņemot vērā iedzīvotāju aktīvo interesi iegādāties atjaunīgās enerģijas ražošanas iekārtas (saules paneļi, siltumsūkņi u.c.) un elektroenerģijas uzkrāšanas iekārtas (akumulatorus), Klimata un enerģētikas ministrija (KEM) ir palielinājusi kopējo pieejamo finansējumu 5milj. eiro apmērā šo iekārtu iegādei. 2024. gada 2. jūlijā Ministru kabinets (MK) apstiprināja attiecīgos grozījumus MK noteikumos.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=226&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">09</span></div>
+		<div>maijs</div>
+		<div><span class="year">2024</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Plāno palielināt finansējumu atbalstam iedzīvotājiem atjaunojamo energoresursu izmantošanai</strong><br />
+		<p style="text-align: justify;">Vides investīciju fonds informē, ka tiek plānots palielināt finansējuma apjomu atbalsta programmai iedzīvotājiem atjaunīgo energoresursu ražošanas iekārtu uzstādīšanai. Līdz šim pieejamo finansējumu 40 miljonu eiro apmērā plānots palielināt līdz 45 miljoniem eiro. Finansējumu plānots palielināt, lai spētu sniegt atbalstu arvien pieaugošajam iedzīvotāju pieprasījumam saules paneļu uzstādīšanā un apkures iekārtu nomaiņai.</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=224&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">21</span></div>
+		<div>jūn.</div>
+		<div><span class="year">2023</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Grozījumi Ministru kabineta noteikumos Nr. 150</strong><br />
+		Spēkā stājušies grozījumi Ministru kabineta 2022. gada 1. marta noteikumos Nr. 150, ar kuriem ir <strong>atcelta prasība</strong>, ka dzīvojamās mājas pieslēgumā atļautā elektroenerģijas ražošanas iekārtas uzstādītā jauda nepārsniedz 50 % no pieslēgumā atļautās maksimālās patēriņa slodzes.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=217&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">02</span></div>
+		<div>jūn.</div>
+		<div><span class="year">2023</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Monitoringa pārskata iesniegšana par saražoto enerģijas daudzumu</strong><br />
+		Saskaņā ar līguma par projekta īstenošanu vismaz vienu reizi gadā <strong>Finansējuma saņēmējam ir jāiesniedz monitoringa pārskats norādot saražoto un patērēto enerģijas daudzumu</strong> monitoringa pārskata perioda laikā.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=216&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">16</span></div>
+		<div>marts</div>
+		<div><span class="year">2023</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Pirmā gada laikā apstiprināti vairāk kā 5000 projekti</strong><br />
+		2023. gada martā, apritot gadam, kopš iedzīvotājiem ir iespēja pieteikties atbalstam fosilo apkures iekārtu nomaiņai un elektro mikroģenerācijas (saules un vēja) iekārtu iegādei, ir apstiprināti jau vairāk kā 5000 projekti.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=213&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">13</span></div>
+		<div>marts</div>
+		<div><span class="year">2023</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Izstāde Māja I</strong><br />
+		Būvniecības izstādes “<strong>Māja I 2023</strong>” ietvaros starptautiskajā izstāžu centrā Ķīpsala Vides investīciju fonda darbinieki no 2023. gada 23. marta līdz 2026. gada 26. martam klātienē sniegs atbildes uz neskaidrajiem jautājumiem saistībā ar atbalsta programmām "Siltumnīcefekta gāzu emisijas samazināšana transporta sektorā – atbalsts bezemisiju un mazemisiju transportlīdzekļu iegādei" un "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai".		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=211&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">03</span></div>
+		<div>dec.</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Apstiprināti vairāk kā 3000 projekti</strong><br />
+		<p>Uz 2022. gada decembra sākumu ir <strong>aptiprināti jau 3000 projekti</strong> atjaunojamo energoresursu izmantošanai mājsaimniecībā un sagaidāms, ka decembra beigās apstiprināto projektu skaits pārsniegs jau 4000 projektus.</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=210&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">09</span></div>
+		<div>okt.</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Apstiprināti 1500 projekti</strong><br />
+		Uz 2022. gada oktobra sākumu ir aptiprināti jau 1500 projekti atjaunojamo energoresursu izmantošanai mājsaimniecībā.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=208&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">15</span></div>
+		<div>aug.</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Grozījumi Ministru kabineta noteikumos Nr. 150</strong><br />
+		Ir veiktas izmaiņas Ministru kabineta 2022. gada 1. marta noteikumos Nr. 150 un vadlīnijās projektu iesniedzējiem		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=203&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">12</span></div>
+		<div>apr.</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Apstiprināti pirmie projekti atjaunojamo energoresursu izmantošanai mājsaimniecībā</strong><br />
+		<p style="text-align: justify;">Vides investīciju fonds 2022. gada 11. aprīlī apstiprināja pirmos 5 projektus atjaunojamo energoresursu izmantošanai mājsaimniecībā. Visos projektos ir izvēlēts uzstādīt saules elektrostacijas un EKII atbalsa summa ir no 2200 <em>euro</em> līdz 4000 <em>euro</em> vienam projektam.</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=199&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">24</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Izstāde Māja I</strong><br />
+		<p style="text-align: justify;">Būvniecības izstādes “<strong>Māja I 2022</strong>” ietvaros starptautiskajā izstāžu centrā Ķīpsala Vides investīciju fonda darbinieki no 2022. gada 24. marta līdz 2022. gada 26. martam klātienē sniegs atbildes uz neskaidrajiem jautājumiem saistībā ar atbalsta programmām "Siltumnīcefekta gāzu emisijas samazināšana transporta sektorā – atbalsts bezemisiju un mazemisiju transportlīdzekļu iegādei" un "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai".</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=196&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">18</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Seminārs par projekta iesnieguma sagatavošanu</strong><br />
+		Vides investīciju fonds<strong> organizē informatīvos seminārus </strong>projektu iesniedzējiem par iespējām pieteikties Emisiju kvotu izsolīšanas instrumenta finansētajā konkursā "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai".		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=198&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">15</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="top">
+		<strong>Aicina pieteikties finansiālam atbalstam</strong><br />
+		<p style="text-align: justify;">Valsts sabiedrība ar ierobežotu atbildību “Vides investīciju fonds” aicina iesniegt projekta iesniegumus Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa “Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai” ietvaros</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=197&amp;cntnt01origid=25&amp;cntnt01returnid=29" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+</table>
+			</div>
+
+			
+			<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function() {
+			$('#show_news').toggle(function() {
+				$('#new_hide').css('display', 'block');
+			}, function() {
+				$('#new_hide').css('display', 'none');
+			});
+			});
+			</script>
+			
+			<div style="text-align:center;">
+			<a class="but" id="show_news" style="text-decoration:underline;cursor:pointer;font-weight:bold;">SKATĪT VAIRĀK</a>
+			</div>
+				<br />
+					<span style="font-weight:bold;color:black;">SEMINĀRI</span>
+			<hr style="height:3px;background-color:#66A443;border:0;" />
+			<!-- Displaying News Module -->
+<table class="news v-spacing" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">17</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="middle">
+		<strong>Seminārs par atbalsta programmu mājsaimniecībām: prezentācija un video ieraksts</strong><br />
+		<p>2026. gada 17. septembrī Vides investīciju fonds rīkoja semināru par būtiskākajām  izmaiņām valsts atbalsta programmā “Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai”. Semināra laikā informējām par būtiskākajām izmaiņām atbalsta programmā, kas stājās spēkā 2026. gada 12. septembrī, kā arī sniedzām praktisku ieskatu programmas iesnieguma sagatavošanā.</p>
+<p><strong>Semināra prezentācija pieejama <a href="uploads/files/EKII/EKII6/EKII_Mājsaimniecības_17092026.pdf">šeit.<br /></a>Semināra video ieraksts pieejams <a href="https://youtu.be/LLnGGm1g1OA">šeit.</a></strong></p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=287&amp;cntnt01origid=25&amp;cntnt01returnid=37" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date">
+				<div><span class="big">15</span></div>
+		<div>sept.</div>
+		<div><span class="year">2026</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="middle">
+		<strong>Infografika: būtiskākās izmaiņas atbalsta programmā mājsaimniecībām</strong><br />
+		<p><strong>2026. gada 12. septembrī spēkā stājās pilnveidota programma mājsaimniecībām</strong> ar plašākām atbalsta iespējām videi draudzīgu enerģijas ražošanas iekārtu iegādei. Pilnveidotā programma paredz lielāku atbalsta intensitāti Goda ģimenēm, plašākas iespējas izvēlēties un kombinēt apkures iekārtas, kā arī vienkāršotus nosacījumus atbalsta saņemšanai visā Latvijas teritorijā. Plašāka informācija infografikā.</p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=284&amp;cntnt01origid=25&amp;cntnt01returnid=37" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">21</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="middle">
+		<strong>Vebinārs “Privātmāju energoefektivitāte. Atjaunojamie energoresursi”</strong><br />
+		<p class="text-align-center">Vides investīciju fonds aicina piedalīties vebinārā “Privātmāju energoefektivitāte. Atjaunojamie energoresursi” </p>		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=195&amp;cntnt01origid=25&amp;cntnt01returnid=37" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">14</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="middle">
+		<strong>Vebinārs “Privātmāju energoefektivitāte. Finansējums un saules paneļi”</strong><br />
+		Vides investīciju fonds aicina piedalīties vebinārā “Privātmāju energoefektivitāte. Finansējums un saules paneļi”		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=194&amp;cntnt01origid=25&amp;cntnt01returnid=37" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+<tr>
+    <td width="54" valign="top" class="int">
+		<span>
+				<div class="date_grey">
+				<div><span class="big">09</span></div>
+		<div>marts</div>
+		<div><span class="year">2022</span></div>
+		</div>	
+		</span>
+	</td>
+    <td class="text" align="justify" valign="middle">
+		<strong>Brauc zaļi, dzīvo zaļi – valsts atbalsta programmas nosacījumi</strong><br />
+		AS "Latvenergo" organizē vebināru 2<strong>022. gada 9. martā plkst. 10:00 – 12:00</strong> Elektrum Facebook lapā un YouTube kanālā par ieteikumiem elektroauto iegādei ar valsts atbalstu, kurā piedalīsies arī Vides investīciju fonda pārstāvis sniedzot ieteikumus arī par <strong>atbalstu mājsaimniecībām videi draudzīgo tehnoloģiju uzstādīšanai</strong>.		<div class="more">
+			<a href="https://ekii.lv/index.php?mact=News,cntnt01,detail,0&amp;cntnt01articleid=193&amp;cntnt01origid=25&amp;cntnt01returnid=37" class="but" style="text-decoration:none;"><div class="left"></div><div class="cent">LASĪT VAIRĀK</div><div class="right"></div></a>
+		</div>
+    </td>
+</tr>
+</table>
+
+
+			<div id="seminari_hide" style="display:none;">
+			<!-- Displaying News Module -->
+<table class="news v-spacing" width="100%" cellpadding="0" cellspacing="0" border="0">
+</table>
+
+
+			</div>
+
+			
+			<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function() {
+			$('#show_seminari').toggle(function() {
+				$('#seminari_hide').css('display', 'block');
+			}, function() {
+				$('#seminari_hide').css('display', 'none');
+			});
+			});
+			</script>
+			
+			<div style="text-align:left;">
+			<a class="but" id="show_seminari" style="text-decoration:underline;cursor:pointer;font-weight:bold;">SKATĪT VAIRĀK</a>
+			</div>
+				<div class="k_text">
+			
+		</div>
+	
+		<span style="font-weight:bold;color:black;">PAR KONKURSU</span>
+		<hr style="height:3px;background-color:#66A443;border:0;" />
+		<div class="k_text">
+			<p style="text-align: justify;">Konkursa mērķis ir samazināt oglekļa dioksīda emisijas mājsaimniecībās, atbalstot siltumenerģijas vai elektroenerģijas ražošanas iekārtu iegādi, lai nodrošinātu siltumenerģijas vai elektroenerģijas ražošanu un piegādi mājsaimniecības vajadzībām, vai mājsaimniecību pieslēgumu izveidošanu centralizētajai siltumapgādes sistēmai.</p>
+<p style="text-align: justify;">Konkursā <span style="text-decoration: underline;"><strong>atbalsta</strong></span>:</p>
+<ul style="text-align: justify;">
+<li>esoša fosilos energoresursus izmantojoša vai malkas vai granulu kurināmajam piemērota koksnes biomasas apkures<strong> katla</strong> <strong>nomaiņu </strong>vai<strong> papildināšanu </strong>ar jaunu siltumenerģijas ražošanas iekārtu:
+<ul>
+<li><strong>koksnes biomasas katls</strong>, kas piemērots <strong>granulu kurināmajam</strong>,</li>
+<li><strong>granulu kamīnkrāsns</strong> ar centrālapkures funkciju;</li>
+<li><strong>siltumsūkņi</strong> (gaiss, ūdens, zeme).</li>
+</ul>
+</li>
+</ul>
+<p style="text-align: justify; padding-left: 60px;"><span style="font-size: 20px; color: #ff0000;">⚠ </span><strong>Ēkās, kur nav centrālapkure (malkas krāsnis, malkas plītis, elektriskie sildītāji, mobilie gaisa sildītāji) vai netiek apkurinātas vai ir jaunbūves, atbalsts par jaunu siltumenerģijas ražošanas iekārtu iegādi nav paredzēts.</strong></p>
+<ul style="text-align: justify;">
+<li><strong>jaunu elektroenerģijas ražošanas un uzkrāšanas iekārtu iegādi</strong><span style="text-align: justify;">:</span>
+<ul>
+<li>saules elektrostacijas (saules paneļi un invertors);</li>
+<li>vēja elektrostacijas (vēja ģenerators un invertors);</li>
+<li>elektroenerģijas uzglabāšanas iekārtas ar nominālo ietilpību vismaz 10 kWh (aktivitāte jāīsteno kopā ar saules vai vēja elektrostaciju vai saules vai vēja elektrostacija ir izbūvēta pēc 2022. gada 9. marta).</li>
+</ul>
+</li>
+<li><strong>pieslēgumu centralizētajai siltumapgādes sistēmai </strong>projektēšanas un siltummezgla izveides izmaksas (neatkarīgi no esošā apkures risinājuma);</li>
+<li><strong>saules kolektoru sistēmas</strong> ar akumulācijas tvertni, ja ar šo iekārtu saražotā enerģija 100 % apmērā tiek izmantota karstā ūdens sagatavošanai pašpatēriņam.</li>
+</ul>
+<p style="text-align: justify;"><strong>Projekta iesniedzējs ir fiziska persona</strong> – Latvijas Republikas <strong>pastāvīgais iedzīvotājs</strong>, kuram zemesgrāmatā <strong>nostiprinātas īpašuma tiesības uz dzīvojamo māju</strong> un kurš iesniedz projekta iesniegumu. Konkursā var piedalīties arī, ja dzīvojamai mājai ir vairāki īpašnieki un <strong>visi dzīvojamās mājas īpašnieki</strong> iesniedz  piekrišanas vēstuli par projekta iesniedzēja plānotajām konkursa ietvaros atbalstāmajām aktivitātēm kopīpašumā, kas ir notariāli apliecināta vai parakstīta ar drošu elektronisko parakstu, kas satur laika zīmogu. <strong>Netiek atbalstīti projekti par vienu dzīvokli daudzdzīvokļu mājā</strong>.<br /><br /><strong>Projekta izmaksas ir radušās pēc noteikumu spēkā stāšanās dienas un projekta iesniegumus var iesniegt</strong> līdz <strong>2029. gada 31. decembrim </strong>vai kamēr nebeidzas noteikumu 4. punktā minētais atbalsts (85 000 000 <em>euro</em>). <br /><br />Konkursa ietvaros vienam projektam pieejamais <strong>maksimālais atbalsts ir 15 000 <em>euro</em></strong> un maksimāli pieļaujamā <strong>atbalsta intensitāte nepārsniedz 85%</strong> (maksimāli pieļaujamā atbalsta intensitāte nepārsniedz 70% projektiem, kas īstenoti pirms 12.09.2026.) no siltumenerģijas vai elektroenerģijas ražošanas un uzkrāšanas iekārtas iegādes vai mājsaimniecības pieslēguma centralizētajai siltumapgādes sistēmai izveides izmaksām,<strong> nepārsniedzot MK noteikumu Nr. 531 1. pielikumā noteikto atbalsta apjomu atkarībā no konkrētas atjaunojamo energoresursu iekārtas un tās parametriem. </strong>Iedzīvotājiem ir tiesības iesniegt vairākus projekta iesniegumus.</p>
+<p style="text-align: justify;"><strong>3. soļi līdz atbalstam un monitorings:</strong></p>
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td style="width: 15%; font-size: 175%; text-align: center;"><span class="w3-badge w3-black"> 1 </span> solis</td>
+<td style="width: 85%;">
+<div class="w3-panel w3-leftbar w3-round-xxlarge w3-border-black w3-hover-border-red"><strong>Iekārtu izvēle un iegāde</strong>
+<p style="text-align: justify;"><a href="index.php?page=iedzivotaji_komersanti" target="_blank"><img class="hover-img" style="width: 63px; height: 86px;" title="Skatīt populārākos komersantus, ko izvēlas iedzīvotāji" src="uploads/images/Bildes/top_komersanti.png" alt="Komersantu saraksts" align="left" data-alt-src="uploads/images/Bildes/top_komersanti_s.png" /> </a>Jāizvēlas Latvijas uzņēmums no kura iegādāsieties iekārtas. Pēc iekārtu iegādes jānodrošina to uzstādīšana dzīvojamā mājā, uz zemes, kas saistīta ar dzīvojamo māju vai uz saimniecības ēku. Vienlaikus var realizēt vairākas aktivitātes vai vairākus projektus.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; font-size: 175%; text-align: center;"><span class="w3-badge w3-indigo"> 2 </span> solis</td>
+<td style="width: 85%;">
+<div class="w3-panel w3-leftbar w3-round-xxlarge w3-border-indigo w3-hover-border-red"><strong>Pieteikuma iesniegšana</strong>
+<p style="text-align: justify;"><a href="index.php?page=projekta-iesniegums" target="_blank"><img class="hover-img" style="width: 63px; height: 86px;" title="Aizpildīt pieteikuma anketu" src="uploads/images/Bildes/pieteikumaforma.png" alt="Pieteikums" align="left" data-alt-src="uploads/images/Bildes/pieteikumaforma_s.png" /> </a>Jāiesniedz <a href="index.php?page=projekta-iesniegums" target="_blank">projekta iesniegums</a> Vides investīciju fondā atbalsta saņemšanai (nosūta uz epastu <strong><a href="/cdn-cgi/l/email-protection#6f0e1b0d0e031c1b1c2f0319060941080019410319"><span class="__cf_email__" data-cfemail="94f5e0f6f5f8e7e0e7d4f8e2fdf2baf3fbe2baf8e2">[email&#160;protected]</span></a></strong> un klāt pievieno pamatojošos dokumentus parakstītus ar elektronisko parakstu)</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; font-size: 175%; text-align: center;"><span class="w3-badge w3-green"> 3 </span> solis</td>
+<td style="width: 85%;">
+<div class="w3-panel w3-leftbar w3-round-xxlarge w3-border-green w3-hover-border-red"><strong>Līguma noslēgšana, atbalsta saņemšana</strong>
+<p style="text-align: justify;">Pēc pozitīva lēmuma pieņemšanas starp projekta iesniedzēju un Vides investīciju fondu tiek noslēgts līgums par atbalsta piešķiršanu un ne ilgāk kā 20 darba laikā uz projekta iesniegumā norādīto norēķina kontu tiks pārskaitīts EKII finansējums.<br />Pirms līguma parakstīšanas pārliecinieties, ka ir norādīts projekta iesniedzēja norēķina konts.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; font-size: 175%; text-align: center;"><span class="w3-badge w3-green"> 4 </span> solis</td>
+<td style="width: 85%;">
+<div class="w3-panel w3-leftbar w3-round-xxlarge w3-border-green w3-hover-border-red"><strong>Projekta monitorings</strong>
+<p style="text-align: justify;"><a href="index.php?page=log-in" target="_blank"><img class="hover-img" style="width: 63px; height: 86px;" title="Iesniegt monitoringa pārskatu" src="uploads/images/Bildes/monitorings.png" alt="EMSI sistēma" align="left" data-alt-src="uploads/images/Bildes/monitorings_s.png" /> </a>Saskaņā ar līguma par projekta īstenošanu vismaz vienu reizi gadā <strong>Finansējuma saņēmējam ir jāiesniedz monitoringa pārskats, norādot saražoto un patērēto elektroenerģijas daudzumu</strong> monitoringa pārskata perioda laikā. Monitoringa pārskatu līdz katra nākamā gada 1. maijam par 12 mēnešu periodu, kas sākas kārtējā gada 1. martā un beidzas nākamā gada februāra pēdējā dienā iesniedz elektroniskajā monitoringa sistēmā (<a href="index.php?page=log-in" target="_blank">EMSI</a>).<br /><br /><br />Lai pieslēgtos elektroniskajā monitoringa sistēmā ir jāievada piekļuves dati:<br /><strong>LIETOTĀJVĀRDS</strong>: <strong>Līguma numurs</strong>, piemēram, <em>EKII-6/0</em>. Ja ir noslēgti vairāki līgumi, tad lietotājvārds būs vienāds visiem līgumiem (pirmā noslēgtā līguma numurs).<br /><strong>SĀKOTNĒJĀ PAROLE</strong>: <strong>Projekta iesnieguma veidlapas pēdējās lapas apakšā</strong> <strong>norādīta parole </strong>– 8 simbolu kombinācija, piemēram, <em>f4R4s341 </em>(tikai, ja projekta iesnieguma veidlapa ir aizpildīta <a href="index.php?page=projekta-iesniegums" target="_blank">ekii.lv</a>).<br /><br /><strong>Ja ir aizmirsta parole vai nevarat veikt paroles nomaiņu, aicinām rakstīt uz epastu: <a href="/cdn-cgi/l/email-protection#0c6d786e6d607f787f4c607a656a226b637a22607a"><span class="__cf_email__" data-cfemail="08697c6a69647b7c7b48647e616e266f677e26647e">[email&#160;protected]</span></a>.</strong></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> <button class="accordion">Atbalsta aprēķināšanas piemēri:</button>
+<div class="panel">
+<table style="background-color: #e5e5e5; width: 100%;" border="0" cellspacing="0" align="justify">
+<tbody>
+<tr>
+<td><em>Piemērs - EKII finansējums <strong>pārsniedz</strong> maksimālo atbalsta apmēru</em>:<br />
+<p style="text-align: justify;">Projektā uzstāda saules paneļus ar invertora nominālo jaudu 4,5kW par kopējo līguma summa 3500 <em>euro</em> ieskaitot PVN. Maksimālais EKII finansējums saskaņā ar noteikumu 1. pielikumu ir 2200 <em>euro</em> <em>(<em>70% x </em>3500 <em>euro</em> = 2450, kas pārsniedz 2200 <em>euro</em>)</em>. Projekta iesniedzēja finansējums ir 3500 <em>euro</em> - 2200 <em>euro</em> = 1300 <em>euro</em>.<br /><br /><em>Piemērs - <em>EKII finansējums</em> <strong>nepārsniedz</strong> maksimālo atbalsta apmēru:</em><br /><br />Projektā uzstāda saules paneļus ar invertora nominālo jaudu 4,5kW par kopējo līguma summa 2250 <em>euro</em> ieskaitot PVN. Maksimālais EKII finansējums saskaņā ar noteikumu 1. pielikumu ir 2200 <em>euro, kamēr</em> 70% x 2250 <em>euro</em> = <strong>1575 <em>euro</em></strong>. Projekta iesniedzēja finansējums ir 2250 <em>euro</em> - 1575 <em>euro</em> = 675 <em>euro</em>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br /> <button class="accordion">Izmaksu pamatojošie dokumenti:</button>
+<div class="panel" style="text-align: justify;">Projekta izmaksu attiecināmību pamato ar:<br />
+<ul>
+<li style="text-align: justify;"><strong>pieņemšanas-nodošanas aktu</strong></li>
+<li style="text-align: justify;"><strong>samaksu apliecinošiem dokumentiem</strong> - maksājuma dokuments vai kases čeks (<em>darījuma informācija var tikt nosūtīta VID nodokļu nomaksas pārbaudei</em>) vai nomaksas pirkuma līgums iekārtas iegādei</li>
+<li style="text-align: justify;">dokumentu, kas apliecina atslēgšanos no dabasgāzes pieslēguma (<em>ja attiecināms</em>)</li>
+<li style="text-align: justify;">līgumu par mājsaimniecības pieslēgumu centralizētai siltumapgādes sistēmai (<em>ja attiecināms</em>)</li>
+</ul>
+<strong>Iekārtas var iegādāties slēdzot līgumu par patēriņa kredītu</strong> (preces pirkumu ar pēcapmaksu), ja īpašuma tiesības uz iekārtu pāriet pircējam dienā, kad pircējs pieņem iekārtu (paraksta pieņemšanas-nodošanas aktu).<br /><br />Maksājuma dokumentu, kases čeka, pieņemšanas-nodošanas akta datumiem ir jābūt pēc Ministru kabineta noteikumu spēkā stāšanās. <span style="color: #ff0000;"><strong>Ja par projekta iesniegumā norādīto iekārtu ir veikts avansa maksājums pirms Ministru kabineta noteikumu spēkā stāšanās (09.03.2022.) un tas tiek iesniegts kā pamatojošais dokuments samaksas veikšanai, tad tāda iekārta nebūs attiecināma</strong></span>.<br /><br />
+<table style="background-color: #fec600; width: 100%;" border="0" cellspacing="0">
+<tbody>
+<tr>
+<td><span style="color: #ff0000;"><strong>IETEIKUMI:</strong></span><br />
+<p style="text-align: justify;">Par projektā uzstādīto iekārtu darbību atbild projekta iesniedzējs - dzīvojamās mājas īpašnieks.<br /><br /><strong>Iesakām rūpīgi izvēlēties iekārtu pārdevēju vai uzstādītāju vai pakalpojuma sniedzēju</strong>.<br />Galvenie kritēriji, kam jāpievērš uzmanību ir:</p>
+<ul style="text-align: justify;">
+<li>apgrūtinājumu esamība komersantam - sekojošu apgrūtinājumu esamība norāda uz iespējamām komersanta problēmām nākotnē izpildīt saistības vai nodrošināt iekārtu garantijas apkopi, ja tāda radīsies (informāciju ērti ir pārbaudīt vienkopus <a href="https://www.lursoft.lv/meklet" target="_blank">ŠEIT</a> ievadot komersanta reģistrācijas numuru):
+<ul>
+<li>VID administrēto nodokļu parādi</li>
+<li>Aktuāli kavētie maksājumi</li>
+<li>Likvidācijas process</li>
+<li>Aktuāls ieraksts maksātnespējas reģistrā</li>
+</ul>
+</li>
+<li>patērētāju tiesību aizsardzības centra melnais saraksts - komersanti, kas labprātīgi nav izpildījuši Patērētāju Strīdu risināšanas komisijas uzlikto lēmumu <a href="https://registri.ptac.gov.lv/registri/melnais-saraksts" target="_blank">PĀRBAUDI ŠEIT</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br /> <button class="accordion">Prasības projektu iesniedzējam:</button>
+<div class="panel"><strong>Projekta iesniedzējs</strong> un <strong>dzīvojamās mājas visi īpašnieki</strong> neatbilst noteikumu 14. punktā noteiktajām:<br />
+<ul>
+<li style="text-align: justify;">iesnieguma iesniegšanas termiņam tuvākajā dienā, kurā pieejama Valsts ieņēmumu dienesta informācija par nodokļu parādiem, <strong>ir nodokļu parādi</strong>, tai skaitā valsts sociālās apdrošināšanas obligāto iemaksu parādi, kas kopsummā pārsniedz 150 <em>euro</em>; (attiecināms, ja reģistrēts VID kā saimnieciskās darbības veicējs) <a href="https://www6.vid.gov.lv/" target="_blank">PĀRBAUDI ŠEIT</a></li>
+<li style="text-align: justify;">projekta iesnieguma vērtēšanas gaitā<strong> centies prettiesiski iegūt</strong> vai<strong> ir ieguvis</strong> savā rīcībā ierobežotas pieejamības <strong>informāciju</strong> vai centies prettiesiski ietekmēt vai ir ietekmējis projektu iesniegumu vērtēšanu, tai skaitā Vides investīciju fondu vai citu projektu konkursa vērtēšanā iesaistītu amatpersonu vai ekspertu;</li>
+<li style="text-align: justify;">ar tiesas spriedumu <strong>pasludināts maksātnespējas process</strong> vai ar tiesas nolēmumu ir pasludināts maksātnespējas process <a href="https://maksatnespeja.ur.gov.lv/insolvency/search/lv" target="_blank">PĀRBAUDI ŠEIT</a></li>
+<li style="text-align: justify;">ir <strong>noteiktas starptautiskās vai nacionālās sankcijas</strong> vai būtiskas finanšu un kapitāla tirgus intereses ietekmējošas Eiropas Savienības vai Ziemeļatlantijas līguma organizācijas dalībvalsts sankcijas <a href="https://sankcijas.fid.gov.lv/" target="_blank">PĀRBAUDI ŠEIT</a> un <a href="https://sanctionssearch.ofac.treas.gov/" target="_blank">PĀRBAUDI ŠEIT</a></li>
+<li style="text-align: justify;">ar tādu prokurora priekšrakstu par sodu vai tiesas spriedumu, kas stājies spēkā un kļuvis neapstrīdams un nepārsūdzams, <strong>ir atzīta par vainīgu</strong> vai tai<strong> ir piemērots piespiedu ietekmēšanas līdzeklis </strong>jebkurā no šādiem noziedzīgiem nodarījumiem: <a href="https://e.ic.iem.gov.lv/lv/" target="_blank">PĀRBAUDI ŠEIT</a>
+<ul>
+<li>kukuļņemšana, kukuļdošana, kukuļa piesavināšanās, starpniecība kukuļošanā, neatļauta labuma pieņemšana, komerciāla uzpirkšana, neatļauta piedalīšanās mantiskos darījumos, prettiesiska labuma pieprasīšana, pieņemšana un došana vai tirgošanās ar ietekmi;</li>
+<li>krāpšana, piesavināšanās vai noziedzīgi iegūtu līdzekļu legalizēšana;</li>
+<li>izvairīšanās no nodokļu un tiem pielīdzināto maksājumu samaksas;</li>
+<li>noziedzīgi iegūtu līdzekļu legalizācija vai proliferācijas finansēšana, terorisms, terorisma finansēšana, aicinājums uz terorismu, terorisma draudi vai personas vervēšana un apmācība terora aktu veikšanai;</li>
+</ul>
+</li>
+<li style="text-align: justify;">ir <strong>reģistrēts kā parādnieks</strong> uzturlīdzekļu garantiju fonda administrācijas iesniedzēju un parādnieku reģistrā <a href="https://latvija.lv/lv/Epakalpojumi/EP56/Apraksts" target="_blank">PĀRBAUDI ŠEIT</a></li>
+</ul>
+</div>
+<br /> <button class="accordion">Nosacījumi saules elektrostacijas vai vēja elektrostacijas uzstādīšanai:</button>
+<div class="panel">
+<p style="text-align: justify;">Par mikroģeneratoru tiek uzskatīta elektroenerģijas ražošanas iekārta, piemēram, saules, vēja sistēmas un ar tām saistītās iekārtas, piemēram, invertors. Mikroģeneratori paredzēti maiņstrāvas elektroenerģijas ražošanai ar vienas vai trīs fāžu spriegumu un darba strāvu līdz 16 A. <strong>Vienas fāzes elektrotīklā tas atbilst 3,7 kW</strong>, bet <strong>trīs fāžu elektrotīklā – 11,1 kW jaudai</strong>.<br />Sīkāka informācija par mikroģeneratoru pieslēgšanu ir atrodama <a href="https://sadalestikls.lv/lv/mikrogeneratora-pieslegums" target="_blank">AS Sadales tīkls tīmekļa vietnē</a>.<br />Sīkāka informācija par <a href="https://sadalestikls.lv/lv/sadales-tikls-tarifi" target="_blank">elektroenerģijas sadales sistēmas pakalpojumu tarifiem</a> palielinot pieslēguma jaudu.</p>
+<p><strong>Pamatnosacījumi saules paneļu montāžai uz jumta.</strong></p>
+<p style="text-align: justify;"><strong>Par ēkas drošumu atbild ēkas īpašnieks. </strong>Ēkas pārbūvei nepieciešamie dokumenti noteikti <a href="https://likumi.lv/ta/id/269164" target="_blank">Ministru kabineta noteikumos Nr. 529</a> "Ēku būvnoteikumi". Pirms iekārtu izvietošanas būtu jāveic:</p>
+<ul style="text-align: justify;">
+<li><strong>ēkas tehniskā apsekošana, lai noskaidrotu jumta konstrukciju nestspēju – </strong>ja nav nepieciešams veikt būvdarbus, piemēram, ēkas vai jumta nesošo konstrukciju pastiprināšana vai inženiertīkla pievada izbūve, saules paneļu izvietošanai nav nepieciešama būvvaldes atļauja.</li>
+<li><strong>jumta seguma kvalitātes un noturības pārbaude</strong>, lai izvairītos no situācijām kad jumta seguma tehniskais stāvoklis nenodrošina tā kalpošanu saules paneļu kalpošanas laikā un nāktos jumta segumu nomainīt.</li>
+</ul>
+<p style="text-align: justify;">Ņemot vērā ka ir jānodrošina piekļuve saules paneļu tehniskai apsekošanai un tīrīšanai, tad uz slīpiem jumtiem saules paneļu atrašanās zonā ir jānodrošina jumta laipas vai darbam augstumā drošības sistēmu stiprināšanās punkti vai sistēmas. Uz plakaniem jumtiem paredzētajās apkalpošanas vietās ir jāierīko speciāli aprīkoti ejceļi. Lai uz jumta seguma nekrātos gruži un ūdens un līdz ar to nesamazinātu jumta seguma mūža ilgumu, kā arī lai saules paneļi nepārkarstu un būtu iespējams veikt jumta seguma kvalitātes kontroli, saules paneļiem ir jāatrodas atrautiem no jumta seguma vismaz 100 mm attālumā. Paneļu montētājam jāsastāda darbu pieņemšanas  akts, kurā ieteicams norādīt sekojošu informāciju:</p>
+<ul style="text-align: justify;">
+<li>montētāja vārds uzvārds un sertifikāta numurs</li>
+<li>montāžas komplektu slodzes aprēķins, kuram jāpievieno jumta apskates akts</li>
+<li>slēpto darbu akti ar foto fiksāciju par stiprinājumu montāžu jumta pamatnē</li>
+<li>slēpto darbu akti ar foto fiksāciju par stiprinājumu iestrādi jumta segumā</li>
+<li>sistēmas pabeigto darbu foto fiksācija, kurā ir jāredz visu sistēmas komponenšu iestrāde (kabeļu novietojums, stiprinājumu atrašanās vietas, paneļu novietojuma ģeometriskā atbilstība)</li>
+</ul>
+<p style="text-align: justify;">Jumta seguma apsekošanu jāveic ne retāk kā divas reizes gadā,  kā to nosaka <a href="https://likumi.lv/ta/id/218831">Ministru kabineta noteikumi Nr. 907</a> "Noteikumi par dzīvojamās mājas apsekošanu, tehnisko apkopi un kārtējo remontu" un vienlaikus ieteicams veikt saules paneļu apsekošanu.</p>
+</div>
+<br /> <button class="accordion">Nosacījumi granulu katlu uzstādīšanai:</button>
+<div class="panel">
+<p style="text-align: justify;">Ja dzīvojat pilsētās un blīvi apdzīvotās teritorijās, pirms izvēlaties koksnes biomasas katlu, <strong>iesakām izvērtēt vai nav iespējams primāri pieslēgties centralizētajai siltumapgādes sistēmai vai uzstādīt siltumsūkņus</strong>.<br /><br />Lai arī koksnes kurināmais ir atjaunojamais resurss un ir viens no risinājumiem kā samazināt globālās klimata pārmaiņas, jāņem vērā, ka koksnes kurināšanas rezultātā rodas gaisa piesārņojums, kas negatīvi ietekmē cilvēku veselību, veģetāciju un nodara kaitējumu ēkām. (Vairāk informācijas: <a href="https://www.kem.gov.lv/lv/ka-katrs-no-mums-var-samazinat-gaisa-piesarnojumu">kem.gov.lv/lv/ka-katrs-no-mums-var-samazinat-gaisa-piesarnojumu</a>).</p>
+<p style="text-align: center;"><strong>Dažādi kurināmā veidi - kurš rada mazāku gaisa piesārņojumu.</strong><br /><img src="uploads/images/EKII/6/VARAM_kurinamais.png" alt="Piesārņojuma avoti" width="100%" /></p>
+</div>
+<br /><button class="accordion">Nosacījumi par saimnieciskās darbības veikšanu:</button>
+<div class="panel">
+<p style="text-align: justify;"><span style="color: #ff0000;"><strong>SVARĪGI:</strong></span><br /><br />Dzīvojamā mājā var tikt veikta saimnieciskā darbība,<strong> ievērojot <em>de minimis</em> atbalsta piešķiršanas nosacījumus</strong>. Ja netiek ievērota šī prasība, tad jāatmaksā viss projekta iesniedzējam izmaksātais atbalsts. Dzīvojamā māja <strong>ir pieņemta ekspluatācijā līdz projekta iesnieguma iesniegšanas dienai</strong> vai tiks pieņemta ekspluatācijā 5 gadu laikā pēc līguma noslēgšanas un to apliecina ieraksts zemesgrāmatā. <a href="https://latvija.lv/lv/Epakalpojumi/EP32/Apraksts" target="_blank">PĀRBAUDI ŠEIT</a><br /> <br />Dzīvojamā mājā var būt reģistrētas komercsabiedrības, bet tām ir jābūt Valsts ieņēmumu dienestā reģistrētām struktūrvienībām (<strong>struktūrvienības adrese nevar būt norādīta dzīvojamā mājā, izņemot, ja ir <em>de minimis</em> atbalsts</strong>).<br /><br />Gadījumā, ja dzīvojamā mājā ir reģistrēta komercsabiedrība, kurai nav nekādas saistības ar dzīvojamās mājas īpašnieku, tad ir jāraksta brīvā formā iesniegums uzņēmumu reģistram ar lūgumu mainīt publiskos reģistrus nenorādot tādu komersantu adreses dzīvojamā mājā. </p>
+<p style="text-align: justify;">Dzīvojamās mājas īpašniekam vai divu dzīvokļu dzīvojamās mājas dzīvokļa īpašniekam un (ja attiecināms) arī citiem kopīpašniekiem, ir zemesgrāmatā nostiprinātas īpašuma tiesības uz attiecīgo dzīvojamo māju. Visiem dzīvojamās mājas īpašniekiem ir jābūt fiziskām personām un <strong>dzīvojamā māja, kur viens no tās īpašniekiem ir juridiska persona, neatbildīs MK noteikumu Nr. 531 prasībām un nevarēs saņemt valsts atbalstu.</strong></p>
+<p style="text-align: justify;">Fiziskās personas darbību uzskata par saimniecisko darbību, ja tā atbilst vismaz vienam no šādiem kritērijiem:</p>
+<ul>
+<li style="text-align: justify;">darījumu regularitāte un sistemātiskums – trīs un vairāk darījumi gadā vai pieci un vairāk darījumi trijos gados;</li>
+<li style="text-align: justify;">ieņēmumi no darījuma pārsniedz 14 229 un vairāk euro gadā, izņemot ienākumus no personiskā īpašuma (personiskai lietošanai paredzēto kustamo lietu – mēbeļu, apģērba un citu lietu) atsavināšanas;</li>
+<li style="text-align: justify;">darbības ekonomiskā būtība vai personas īpašumā esošo lietu apjoms norāda uz sistemātisku darbību ar mērķi gūt atlīdzību.</li>
+</ul>
+<p style="text-align: justify;">Dzīvojamā mājā tiek veikta saimnieciskā darbība un jāpiesakās <em>de minimis</em> atbalstam, ja izpildās vismaz viens no zemāk minētajiem nosacījumiem:</p>
+<ul>
+<li style="text-align: justify;">dzīvojamās mājas uzturēšanas vai tekošie izdevumi pilnībā vai daļēji būs norādīti kā attaisnotie izdevumi saimnieciskajā darbībā;</li>
+<li style="text-align: justify;">dzīvojamās mājas telpas tiek iznomātas;</li>
+<li style="text-align: justify;">saimnieciskās darbības veicēja preču piegāde un saņemšana tiek veikta dzīvojamā mājā;</li>
+<li style="text-align: justify;">dzīvojamā mājā tiek apkalpoti saimnieciskās darbības veicēja klienti;</li>
+<li style="text-align: justify;">dzīvojamā mājā ir iekārtots "birojs", no kura tiek veikta darbība - attālināta pieslēgšanās klientiem, programmēšana, tulkošana un citas saimnieciskās darbības;</li>
+<li style="text-align: justify;">dzīvojamā mājā taisa preces (kūkas, siers, maize, drēbes u.c.), ko tālāk tirgo.</li>
+</ul>
+<p style="text-align: justify;"><em>De minimis</em> atbalstam <strong>piesakās dzīvojamās mājas īpašnieks, kā fiziskā persona</strong> valsts ieņēmumu dienesta tīmekļa vietnē elektroniskās deklarēšanās sistēmā (EDS) sadaļā "Citas sistēmas" apakšizvēlnē "<em>De minimis</em>" sadaļā aizpildot jaunu veidlapu.<strong><br /><br />Nosacījumi ir spēkā uz projekta iesniegšanas datumu un 5 gadus pēc līguma noslēgšanas par atbalsta saņemšanu.</strong></p>
+</div>
+<button class="accordion">Projekta iesnieguma iesniegšana un izvērtēšana:</button>
+<div class="panel" style="text-align: justify;">Projekta iesniegumu <strong>iesniedz elektroniskā dokumenta formā</strong> un paraksta projekta iesniedzējs <strong>ar drošu elektronisko parakstu</strong>, kas satur laika zīmogu.<br /><br /> Projektu iesniegumu izskatīšanu, vērtēšanu un lēmumu pieņemšanu par projektu iesniegumu apstiprināšanu, precizēšanu vai noraidīšanu nodrošina Vides investīciju fonds. Ja projekta iesniedzēja dati ir iekļauti soda reģistrā, tad projekta izskatīšanas laiks var būt līdz 2 mēnešiem, kamēr tiks saņemta atbilde no Iekšlietu ministrijas Informācijas centra.<br /><br />Ja projekta iesniegumā tiek konstatēta neatbilstība, tad informē projekta iesniedzēju par konstatētajām neatbilstībām un aicina precizēt projekta iesniegumu.<br /><br />Vides investīciju fonds un projekta iesniedzējs (turpmāk – atbalsta saņēmējs) projekta līgumu paraksta 30 darbdienu laikā pēc dienas, kad pieņemts komisijas lēmums par projekta iesnieguma apstiprināšanu un pēc līguma parakstīšanas atbalsta saņēmējam tiek pārskaitīta atbalsta summa.<br /><br /><strong>Projekta iesniegumu noraida uzreiz, ja</strong>:<br />
+<ul>
+<li style="text-align: justify;">ir iesniegti vairāki projekta iesniegumi par vienu dzīvojamo māju par vienu aktivitāti (izskatīs pirmo saņemto)</li>
+<li style="text-align: justify;">projektā paredzētās aktivitātes nav plānots realizēt Latvijā</li>
+</ul>
+</div>
+<br /> <button class="accordion">NETO uzskaites (kWh) sistēma:</button>
+<div class="panel" style="text-align: justify;">Mājsaimniecības <strong>neto uzskaites (kWh) sistēma </strong>ļauj elektrotīklā nodoto enerģiju izmantot brīžos, kad elektrība netiek ražota vai ar pašu ražoto elektrības daudzumu nepietiek, piemēram, nakts stundās, ziemas periodā.
+<p>Mājsaimniecības <strong>vairāk nevar izvēlēties neto uzskaites (kWh) sistēmu</strong>. Neto uzskaites (kWh) sistēma būs spēkā līdz 2029. gada 31. decembrim.</p>
+<p>Neto patēriņš tiek aprēķināts, no patērētās elektroenerģijas (kWh) atņemot tīklā nodoto elektroenerģiju (kWh). Avots: <a href="https://sadalestikls.lv/lv/mikrogeneratora-pieslegsana" target="_blank">sadalestikls.lv/lv/mikrogeneratora-pieslegsana</a>.</p>
+</div>
+<br /> <button class="accordion">NETO norēķinu <em>(euro)</em> sistēma:</button>
+<div class="panel" style="text-align: justify;">Mājsaimniecības <strong>neto norēķinu (<em>euro</em>) sistēma </strong>ļauj elektrotīklā nodoto enerģiju izmantot visos dzīvojamās mājas vai daudzdzīvokļu mājas īpašnieka objektos kopā. 
+<p><span style="color: #ff0000;"><strong>SVARĪGI:</strong></span><br /><strong>Tikai dzīvojamās mājas vai daudzdzīvokļu mājas īpašnieks ar ko ir noslēgts līgums par atbalsta saņemšanu var būt neto norēķinu sistēmas dalībnieks.</strong></p>
+<p><strong>Izvēloties neto norēķinu (kWh) sistēmu jānodrošina MK noteikumu 531 11.6. apakšpunkta nosacījuma izpilde </strong>(vismaz 80 % no elektroenerģijas tiek izmantota dzīvojamās mājas vai daudzdzīvokļu mājas iedzīvotāju pašpatēriņam gada griezumā (12 mēnešu periodā, kas sākas kārtējā gada 1. martā un beidzas nākamā gada februāra pēdējā dienā) attiecīgajā elektroenerģijas sistēmas pieslēgumā vai visos dzīvojamās mājas vai daudzdzīvokļu mājas īpašnieka objektos kopā). Pašpatēriņa nosacījuma izpildi uzskaita kWh nevis <em>euro</em> izteiksmē, tas ir - ja gada laikā saražo ar saules elektrosstaciju 1000 kWh elektroenerģiju, tad kopā ir jāpatērē vismaz 800 kWh elektroenerģijas. Naudas izteiksmē, ņemot vērā ka elektroenerģijas vidējā iepirkuma cena ir zemāka nekā pārdošanas cena, tad būs lielāki elektrības rēķini.</p>
+<p>Pašpatēriņa aprēķina formula:</p>
+<img src="uploads/images/EKII/6/Formula1.png" alt="" height="40" /><br />
+<p>Pašpatēriņa aprēķina formula, ja nav invertora dati par saražoto elektroenerģijas apjomu:</p>
+<img src="uploads/images/EKII/6/Formula2.png" alt="" height="40" /><br /> K<sub>pašpatēriņš</sub> - pašpatēriņa rādītājs, %<br /> E<sub>saražots</sub> - saražotā elektroenerģija ar uzstādītājām iekārtām no 1. marta līdz nākošā gada februāra beigām, kWh (invertora dati)<br /> E<sub>nodots</sub> - tīklā nodotā elektroenerģija no 1. marta līdz nākošā gada februāra beigām, kWh (AS Sadales tīkls dati)<br /> E<sub>saņemts</sub> - no tīkla saņemtā elektroenerģija no 1. marta līdz nākošā gada februāra beigām, kWh (AS Sadales tīkls dati)<br /> E<sub>patērēts</sub> - citos objektos no tīkla saņemtā elektroenerģija no 1. marta līdz nākošā gada februāra beigām, kWh (AS Sadales tīkls dati)<br />
+<p>Elektroenerģijas neto norēķinu sistēmas ietvaros maksimāli pieļaujamais elektrotīklā nodotās un pašpatēriņam neizmantotās elektroenerģijas pārpalikums 12 mēnešu periodā</p>
+<table style="width: 100%;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td rowspan="2"><strong>Elektroenerģijas ražošanas iekārtas jauda, kW</strong></td>
+<td style="text-align: center;" colspan="2"><strong>Maksimāli pieļaujamais saražotās elektroenerģijas pārpalikums, kWh</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>saules elektrostacijām</strong></td>
+<td style="text-align: center;"><strong>vēja elektrostacijām</strong></td>
+</tr>
+<tr>
+<td>līdz 3</td>
+<td style="text-align: right;">1 051</td>
+<td style="text-align: right;">1 840</td>
+</tr>
+<tr>
+<td>3,001–4</td>
+<td style="text-align: right;">1 402</td>
+<td style="text-align: right;">2 453</td>
+</tr>
+<tr>
+<td>4,001–5</td>
+<td style="text-align: right;">1 752</td>
+<td style="text-align: right;">3 066</td>
+</tr>
+<tr>
+<td>5,001–6</td>
+<td style="text-align: right;">2 102</td>
+<td style="text-align: right;">3 679</td>
+</tr>
+<tr>
+<td>6,001–7</td>
+<td style="text-align: right;">2 453</td>
+<td style="text-align: right;">4 292</td>
+</tr>
+<tr>
+<td>7,001–8</td>
+<td style="text-align: right;">2 803</td>
+<td style="text-align: right;">4 906</td>
+</tr>
+<tr>
+<td>8,001–9</td>
+<td style="text-align: right;">3 154</td>
+<td style="text-align: right;">5 519</td>
+</tr>
+<tr>
+<td>9,001–10</td>
+<td style="text-align: right;">3 504</td>
+<td style="text-align: right;">6 132</td>
+</tr>
+<tr>
+<td>10,001–13</td>
+<td style="text-align: right;">4 555</td>
+<td style="text-align: right;">7 972</td>
+</tr>
+<tr>
+<td>13,001–16</td>
+<td style="text-align: right;">5 606</td>
+<td style="text-align: right;">9 811</td>
+</tr>
+<tr>
+<td>16,001–20</td>
+<td style="text-align: right;">7 008</td>
+<td style="text-align: right;">12 264</td>
+</tr>
+<tr>
+<td>20,001–26</td>
+<td style="text-align: right;">9 110</td>
+<td style="text-align: right;">15 943</td>
+</tr>
+<tr>
+<td>26,001–32</td>
+<td style="text-align: right;">11 213</td>
+<td style="text-align: right;">19 622</td>
+</tr>
+<tr>
+<td>32,001–40</td>
+<td style="text-align: right;">14 016</td>
+<td style="text-align: right;">24 528</td>
+</tr>
+<tr>
+<td>40,001–50</td>
+<td style="text-align: right;">17 520</td>
+<td style="text-align: right;">30 660</td>
+</tr>
+<tr>
+<td>50,001–64</td>
+<td style="text-align: right;">22 426</td>
+<td style="text-align: right;">39 245</td>
+</tr>
+<tr>
+<td>64,001–80</td>
+<td style="text-align: right;">28 032</td>
+<td style="text-align: right;">49 056</td>
+</tr>
+<tr>
+<td>80,001–103</td>
+<td style="text-align: right;">36 091</td>
+<td style="text-align: right;">63 160</td>
+</tr>
+<tr>
+<td>103,001–129</td>
+<td style="text-align: right;">45 202</td>
+<td style="text-align: right;">79 103</td>
+</tr>
+<tr>
+<td>129,001–161</td>
+<td style="text-align: right;">56 414</td>
+<td style="text-align: right;">98 725</td>
+</tr>
+<tr>
+<td>161,001–193</td>
+<td style="text-align: right;">67 627</td>
+<td style="text-align: right;">118 348</td>
+</tr>
+<tr>
+<td>193,001–203</td>
+<td style="text-align: right;">71 131</td>
+<td style="text-align: right;">124 480</td>
+</tr>
+<tr>
+<td>203,001–258</td>
+<td style="text-align: right;">90 403</td>
+<td style="text-align: right;">158 206</td>
+</tr>
+<tr>
+<td>258,001–322</td>
+<td style="text-align: right;">112 829</td>
+<td style="text-align: right;">197 450</td>
+</tr>
+<tr>
+<td>322,001–406</td>
+<td style="text-align: right;">142 262</td>
+<td style="text-align: right;">248 959</td>
+</tr>
+<tr>
+<td>406,001–515</td>
+<td style="text-align: right;">180 456</td>
+<td style="text-align: right;">315 798</td>
+</tr>
+<tr>
+<td>515,001–644</td>
+<td style="text-align: right;">225 658</td>
+<td style="text-align: right;">394 901</td>
+</tr>
+<tr>
+<td>644,001–999,999</td>
+<td style="text-align: right;">350 400</td>
+<td style="text-align: right;">613 199</td>
+</tr>
+</tbody>
+</table>
+</div>
+<button class="accordion">Elektroenerģijas uzglabāšanas iekārtas (akumulators):</button>
+<div class="panel" style="text-align: justify;">Var saņemt valsts atbalstu par elektroenerģijas uzglabāšanas iekārtu (akumulatoru) iegādi, ja tās <strong>ietilpība būs vismaz 10 kWh liela un pēc 2022. gada 9. marta ir uzstādīta <strong>saules elektrostacija vai vēja elektrostacija</strong></strong>. Maksimālais atbalsts elektroenerģijas uzglabāšanas iekārtai ir 2 500 <em>euro</em>. <br /><br />Uzstādot elektroenerģijas uzglabāšanas iekārtu (akumulatoru) par to <strong>ir jāpaziņo AS Sadales tīkls</strong> un AS Sadales tīkla atļaujā tiks norādīts: <br />
+<table style="width: 605px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="232">
+<p>Elektroenerģijas ražošanai izmantots energoresursu veids</p>
+</td>
+<td valign="top" width="369">
+<p align="center"><em>Saules / Vēja elektrostacija</em><strong><em> + </em></strong><strong><em>akumulators</em></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br />Projektos, kur jau iepriekš ir tikusi izsniegta AS Sadales tīkls atļauja, tiks izsniegta jauna AS Sadales atļauja, bet nemainīsies pārējie atļaujas nosacījumi. AS Sadales tīkls nav jāinformē, ja ir uzstādīts off-grid tipa invertors un elektrostacija nav pievienota kopējam tīklam.<br /><br /><span style="color: #ff0000;"><strong>Nepaziņošana par elektroenerģijas uzglabāšanas iekārtas (akumulatora) uzstādīšanu ir būtisks pārkāpums, jo apdraud AS Sadales tīkls darbinieku dzīvības, veicot elektrības pārrāvumu remonta darbus, un var būt pamats visa saņemtā valsts atbalsta atprasīšanai</strong></span>.</div>
+<button class="accordion">Divu dzīvokļu mājas; dvīņu, rindu un atsevišķu divu dzīvokļu mājas; triju vai vairāku dzīvokļu mājas:</button>
+<div class="panel" style="text-align: justify;">Papildus nosacījumi noteikumu 11.1.6., 11.1.7., 11.1.8., 11.1.9. un 11.1.10. apakšpunkta būvēm:<br /><br />Par dzīvojamo māju tiek uzskatīta dzīvojamās mājas sastāvā esošo dzīvokļa īpašumu vai mājas daļa, kam <strong>ir viena kopēja robeža ar blakus īpašumu un atsevišķa, neatkarīga inženiersistēma</strong> (elektroenerģijas apgāde, ūdens apgāde un siltumapgāde). Viens no īpašniekiem dzīvojamai mājai par ko iesniedz projekta iesniegumu nevar būt juridiskā persona. <br /><br />Dvīņu, rindu un atsevišķu divu dzīvokļu mājas (būves kods 11210101), triju vai vairāku dzīvokļu mājas; triju vai vairāku dzīvokļu māju dzīvojamo telpu grupa (būves kods 1122) <strong>katrs dzīvojamās mājas īpašnieks var iesniegt savu projekta iesniegumu un nav jāsaņem pārējo īpašnieku piekrišana, ja katra māja ir reģistrēta atsevišķā zemesgrāmatā</strong>.<br /><br />Ja ir viena zemesgrāmata par visiem īpašumiem, tad ir jāsaņem visu pārējo īpašnieku rakstiska piekrišana projekta realizācijai (parakstītai ar elektronisko parakstu vai notariāli apstiprinātai).<br /><br /><span style="color: #ff0000;"><strong>Projekta iesniegumu nevar iesniegt par tikai par atsevišķu telpu vai dzīvokli - izņēmums, ja par dzīvokli ir nosaukta dzīvojamā māja (piemēram, nevar iesniegt vairākus pieteikumus, ja dzīvojamā mājā ir vairāki īpašnieki un katram dzīvoklis ir citā stāvā - viens uz otru)</strong></span>.</div>
+<button class="accordion">Iekārtu bojāeja, maiņa vai papildināšana:</button>
+<div class="panel" style="text-align: justify;">Finansējuma saņēmējam ir tiesības pēc valsts atbalsta saņemšanas veikt projektā uzstādīto iekārtu remontu, maiņu, uzlabošanu vai papildināšanu. Par iekārtu maiņu vai papildināšanu, kas nepasliktina Projekta rezultātus, nav jāpaziņo Vides investīciju fondam.<br /><span style="color: #ff0000;"><strong>Nomainīto iekārtu parametri nedrīkst būt sliktāki par Projektā uztādītajām iekārtām</strong>.</span><br />
+<p><strong>SIA "EnerGrid" maksātnespējas process</strong></p>
+<p>Saskaņā ar Rīgas pilsētas tiesas 2026. gada 5. janvāra tiesas sēdes nolēmumu Nr. C771861025, uzņēmumam SIA "EnerGrid" (iepriekšējais nosaukums SIA "JB SunPower") ir pasludināts maksātnespējas process. Iedzīvotājiem, kas ir iegādājušies saules paneļus un invertorus no SIA "EnerGrid", iekārtu garantijas jautājumos būtu jāvēršas pie iekārtu ražotāja oficiālajiem pārstāvjiem. Sekojoši komersanti izteikuši gatavību sniegt atbalstu iedzīvotājiem tehnisku jautājumu gadījumā:</p>
+<ul>
+<li>SIA "EnerLink", <a href="https://enerlink.lv/kontakti/">enerlink.lv/kontakti/</a>: +37128710241 (zvanīt gadījumos, ja SIA "EnerLink" bija faktiskais iekārtu uzstādītājs)</li>
+<li>SIA "MGK Solar", <a href="https://mgksolar.lv/">mgksolar.lv/</a>: +371 24841525</li>
+<li>"Solar XPro" SIA, <a href="https://www.solarshop.lv/">www.solarshop.lv/</a>: +371 29807221</li>
+</ul>
+</div>
+<button class="accordion"><span style="font-size: 20px; color: #ff0000;">⚠</span>Mājās īpašnieka maiņa pēc līguma noslēgšanas</button>
+<div class="panel" style="text-align: justify;">Saskaņā ar noslēgtā līguma nosacījumiem ir jāinformē par īpašnieka maiņa īpašumam (mājai):<br />
+<ul>
+<li><strong>māju plāno pārdot/dāvināt citam Latvijas iedzīvotājam</strong>: pirms nekustāmā īpašuma pārdošanas līguma noslēgšanas ir pienākums paziņot par plānoto darījumu. Iesniegumu sagatavo esošais mājas īpašnieks elektroniski, parakstot ar elektronisko parakstu un nosūta uz epastu <strong><a href="/cdn-cgi/l/email-protection#94f5e0f6f5f8e7e0e7d4f8e2fdf2baf3fbe2baf8e2"><span class="__cf_email__" data-cfemail="c0a1b4a2a1acb3b4b380acb6a9a6eea7afb6eeacb6">[email&#160;protected]</span></a></strong>. Iesniegumā norāda iespējamā jaunā īpašnieka informāciju (vārds, uzvārds, telefona numurs un e-pasta adrese). Pēc informācijas saņemšanas Vides investīciju fonds pārbaudīs jaunā īpašnieka atbilstību konkursu regulējošajiem nosacījumiem un atbilstības gadījumā sagatavos pārjaunojuma līgumu parakstīšanai.</li>
+<li><strong>mājas īpašnieks ir nomiris</strong>: nekustāmā īpašuma mantiniekam pēc mantojuma apliecības saņemšanas un īpašuma tiesību izmaiņu reģistrēšanas zemesgrāmatā nepieciešams noslēgt pārjaunojuma līgumu, iepriekš rakstiski paziņojot.</li>
+</ul>
+<span style="color: #ff0000;"><strong>Ja jaunais dzīvojamās mājās īpašnieks neatbilst konkursa nosacījumiem vai nepiekrīt noslēgt pārjaunojuma līgumu par atbalsta līgumā noteikto saistību pārņemšanu (5 gadu monitorings), tad ir jāatmaksā saņemtais atbalsts. Pienākums atmaksāt saņemto atbalstu gulstas arī uz mantiniekiem, ja nav iespējams noslēgt ar viņiem pārjaunojuma līgumu par <strong>atbalsta līgumā noteikto saistību </strong>pārņemšanu</strong></span>.</div>
+		</div>
+		<br />
+
+		<span style="font-weight:bold;color:black;">KONKURSA NOLIKUMS</span>
+		<hr style="height:3px;background-color:#66A443;border:0;" />
+		<div class="k_text">
+			<p style="text-align: justify;">Ministru kabineta 2026. gada 1. septembra noteikumi Nr. 531 <a href="https://likumi.lv/ta/id/370844" target="_blank">Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai" nolikums</a><br /><br />Projektiem, kuru aktivitātes ir īstenotas līdz <span style="text-decoration: underline;">12.09.2026.</span>, projekta iesniegumu jāiesniedz līdz 2026. gada 31. decembrim un piemēro Ministru kabineta 2022. gada 1. marta noteikumus Nr. 150 <a href="https://likumi.lv/ta/id/330568" target="_blank">Emisijas kvotu izsolīšanas instrumenta finansēto projektu atklāta konkursa "Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai" nolikums</a></p>
+		</div>
+		<br />
+
+		
+		<style type="text/css">
+		<!--
+		span.title2 {font-weight:bold;color:black;}
+		hr.green {height:3px;background-color:#66A443;border:0;}
+		-->
+		</style>
+		
+
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td valign="top" style="width:433px;">
+		<span class="title2">PROJEKTA ĪSTENOŠANAS DOKUMENTI</span>
+		<hr class="green" />
+			</td>
+			<td width="64"></td>
+			<td valign="top" style="width:433px;">
+		<span class="title2">VADLĪNIJAS UN PIEMĒRI</span>
+		<hr class="green" />
+			</td>
+		</tr>
+		</table>
+		<div class="k_text">
+			<table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 433px; text-align: justify;" valign="top"><a href="uploads/files/EKII/EKII6/ligums/Ligums.docx">Līguma speciālie noteikumi</a> <br /> <a href="uploads/files/EKII/EKII6/ligums/Ligums_1_piel_Monitoringa_parskats.xlsx">1.pielikums "Projekta rezultātu monitoringa pārskats"<br /><br /></a>Monitoringa pārskats jāsniedz vienu reizi gadā līdz katra nākamā gada 1. maijam par 12 mēnešu periodu, kas sākas kārtējā gada 1. martā un beidzas nākamā gada februāra pēdējā dienā.</td>
+<td width="64"> </td>
+<td style="width: 433px; text-align: justify;" valign="top"><a href="uploads/files/EKII/EKII6/EKII_06_vadlinijas_6.docx" target="_blank">Vadlīnijas projektu iesniedzējiem</a> (versija 6)<br /><br /><a href="uploads/files/EKII/EKII6/EMSI_060_2023.pdf" target="_blank">Monitoringa pārskatu iesniegšanas lietotāja instrukcija (versija 1.0)</a><br /><br /><a href="uploads/files/EKII/EKII6/Buklets_SM.pdf" target="_blank">Buklets atbalstam siltummezglu izbūvei</a><br /><br /><a href="uploads/files/EKII/EKII6/citi/Paraugs_SAULE.edoc">Tipiska saules elektrostacijas projekta pieteikuma paraugs ar visiem pielikumiem</a><br /><a href="uploads/files/EKII/EKII6/citi/Paraugs_SILTUMS.edoc">Tipiska siltumsūkņa projekta pieteikuma paraugs ar visiem pielikumiem</a></td>
+</tr>
+</tbody>
+</table>
+		</div>
+		<br />
+
+
+		<span style="font-weight:bold;color:black;">CITI NODERĪGI DOKUMENTI</span>
+		<hr style="height:3px;background-color:#66A443;border:0;" />
+		<div class="k_text">
+			<div class="body-calculator">
+<div class="calculator-container">
+<div><strong>Atbalsta aprēķina kalkulātors</strong></div>
+<form id="calcForm">
+<div class="form-group">
+<div class="checkbox-group"><input id="godaGimene" type="checkbox" /> <label for="godaGimene">Ir spēkā esoša Latvijas Goda ģimenes apliecība</label></div>
+</div>
+<div class="form-group"><label for="activity">Izvēlieties aktivitāti:</label> <select id="activity"> <option selected="selected" disabled="disabled" value="">-- Izvēlieties iekārtas veidu --</option> <option value="pellet_boiler">koksnes biomasas katls, kas piemērots granulu kurināmajam</option> <option value="pellet_boiler">granulu kamīnkrāsns ar centrālapkures funkciju</option> <option value="heat_pump_ground_water">siltumsūknis (zeme–ūdens tips)</option> <option value="heat_pump_air_water">siltumsūknis (gaiss–ūdens tips)</option> <option value="heat_pump_air_air">siltumsūknis (gaiss–gaiss tips)</option> <option value="solar_heat">saules kolektoru sistēma ar akumulācijas tvertni</option> <option value="solar_pv">saules elektrostacija (saules panelis un invertors)</option> <option value="wind">vēja elektrostacija (vēja ģenerators un invertors)</option> <option value="district_heating">pieslēguma centralizētajai siltumapgādes sistēmai projektēšana un siltummezgla izveide</option> <option value="battery">elektroenerģijas uzglabāšanas iekārta</option> </select></div>
+<div id="powerGroup" class="form-group"><label for="power"> Iekārtas nominālā jauda: <span id="powerHint" class="subtitle">(Norādiet iekārtas jaudu)</span> </label> <input id="power" type="number" /></div>
+<div class="form-group"><label for="costs">Iekārtas iegādes izmaksas (EUR ar PVN):</label> <input id="costs" type="number" /></div>
+</form>
+<div id="results" class="results-card" style="display: none;">
+<h2>Aprēķinātais EKII atbalsts</h2>
+<div class="result-row"><span>EKII atbalsta intensitāte:</span> <span id="intensityVal">70%</span></div>
+<div class="result-row"><span>Procentuālais atbalsts:</span> <span id="rawSupportVal">0.00 EUR</span></div>
+<div class="result-row"><span>Maksimālais atbalsts šai jaudai:</span> <span id="maxLimitVal">0.00 EUR</span></div>
+<div class="result-row total"><span>EKII piešķiramais atbalsts:</span> <span id="finalSupportVal">0.00 EUR</span></div>
+<div class="result-row"><span>Projekta iesniedzēja pašfinansējums:</span> <span id="userCostVal">0.00 EUR</span></div>
+</div>
+<div class="subtitle">* Piezīme: Atbalsts tiek aprēķināts procentuāli no kopējām iekārtas iegādes izmaksām, nepārsniedzot MK noteikumu Nr. 531 1. pielikumā noteiktos maksimālos atbalsta apmērus attiecīgajai iekārtas jaudai (kW).</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">// <![CDATA[
+    const form = id => document.getElementById(id);
+
+    function getMaxLimitByPower(activity, power) {
+
+        if (!power || power <= 0) return 0;
+
+        switch (activity) {
+
+            case 'pellet_boiler':
+                if (power < 10.0) return 2300;
+				if (power < 20.0) return 2700;
+				if (power < 30.0) return 3000;
+                if (power < 40.0) return 3200;
+                return 3400;
+
+            case 'heat_pump_ground_water':
+                if (power < 10.0) return 5700;
+                if (power < 20.0) return 7700;
+				if (power < 30.0) return 10000;
+				if (power < 40.0) return 11400;
+                return 13000;
+
+            case 'heat_pump_air_water':
+                if (power < 10.0) return 3700;
+                return 4700;
+
+            case 'heat_pump_air_air':
+                if (power < 10.0) return 1200;
+                return 2400;
+
+            case 'solar_heat':
+                if (power < 100.0) return 1100;
+                if (power < 150.0) return 1200;
+				if (power < 200.0) return 1400;
+                return 1700;
+				
+           case 'solar_pv':
+                if (power < 1.0) return 700;
+                if (power < 2.0) return 1000;
+                if (power < 3.0) return 1400;
+                if (power < 4.0) return 1800;
+                if (power < 5.0) return 2200;
+                if (power < 6.0) return 2500;
+                if (power < 7.0) return 2800;
+                if (power < 8.0) return 3200;
+                if (power < 9.0) return 3500;
+                if (power < 10.0) return 3800;
+                return 4000; 
+
+           case 'wind':
+                if (power < 1.0) return 1000;
+                if (power < 2.0) return 2000;
+                if (power < 3.0) return 3000;
+                if (power < 4.0) return 4000;
+                if (power < 5.0) return 5000;
+                if (power < 6.0) return 6000;
+                if (power < 7.0) return 7000;
+                if (power < 8.0) return 8000;
+                if (power < 9.0) return 9000;
+                if (power < 10.0) return 10000;
+                return 11000;
+
+           case 'district_heating':
+                if (power < 10.0) return 0;
+                if (power < 20.0) return 4500;
+                if (power < 30.0) return 4800;
+                if (power < 40.0) return 5000;
+                if (power < 100.0) return 6100;
+                if (power < 150.0) return 6600;
+                if (power < 200.0) return 7100;
+                if (power < 250.0) return 7600;
+                if (power < 300.0) return 8100;
+                return 8600;
+
+            case 'battery':
+                if (power < 10.0) return 0;
+                return 2500;
+
+            default:
+                return 0;
+        }
+    }
+
+    function updateFormState() {
+        const activity = form('activity').value;
+		if (activity === 'solar_heat') {
+            form('powerHint').textContent = '(Norādiet akumulācijas tvertnes tilpumu litros)';
+        } else if (activity === 'battery') {
+            form('powerHint').textContent = '(Norādiet akumulatora ietilpību kWh)';
+        } else {
+            form('powerHint').textContent = '(Norādiet iekārtas jaudu kilovatos)';
+        }
+        calculateSupport();
+    }
+
+    function calculateSupport() {
+        const activity = form('activity').value;
+        const power = parseFloat(form('power').value) || 0;
+        const costs = parseFloat(form('costs').value) || 0;
+        const isGodaGimene = form('godaGimene').checked;
+
+        if (!activity || costs <= 0 || power <= 0) {
+            form('results').style.display = 'none';
+            return;
+        }
+
+        const intensityRate = (isGodaGimene || activity === 'district_heating') ? 0.85 : 0.70;	
+        const rawSupport = costs * intensityRate;
+
+        const maxLimit = getMaxLimitByPower(activity, power);
+
+        const finalSupport = Math.min(rawSupport, maxLimit);
+        const userCost = costs - finalSupport;
+        const finalLimit = finalSupport / costs  * 100;
+
+        form('intensityVal').textContent = `${(intensityRate * 100).toFixed(0)}%`;
+        form('rawSupportVal').textContent = `${rawSupport.toFixed(2)} EUR`;
+        form('maxLimitVal').textContent = `${maxLimit.toFixed(2)} EUR`;
+        form('finalSupportVal').textContent = `${finalSupport.toFixed(2)} EUR (Faktiskā intensitāte:  ${finalLimit.toFixed(0)}%)`;
+        form('userCostVal').textContent = `${userCost.toFixed(2)} EUR`;
+
+        form('results').style.display = 'block';
+    }
+
+    form('godaGimene').addEventListener('change', calculateSupport);
+    form('activity').addEventListener('change', updateFormState);
+    form('power').addEventListener('input', calculateSupport);
+    form('costs').addEventListener('input', calculateSupport);
+// ]]></script>
+<a style="font-size: 14px; font-weight: bold;" href="index.php?page=projekta-iesniegums" target="_blank">Projekta iesnieguma veidlapa (elektroniskā forma)<br /></a>
+<p style="text-align: justify;">Projekta iesniegumu paraksta ar elektronisko parakstu un kopā ar pamatojošiem dokumentiem nosūta uz e-pastu: <a href="/cdn-cgi/l/email-protection#0b6a7f696a67787f784b677d626d256c647d25677d"><span class="__cf_email__" data-cfemail="b1d0c5d3d0ddc2c5c2f1ddc7d8d79fd6dec79fddc7">[email&#160;protected]</span></a></p>
+<p style="text-align: justify;">Papildus informācija: <a href="tel:25444259">24 444 259</a> <a href="tel:26609411">26 609 411</a> <a href="tel:22030844">22 030 844</a> (<a href="index.php?page=kontakti" target="_blank">visu darbinieku kontakti</a>)</p>
+		</div>
+
+		<span style="font-weight:bold;color:black;">PROJEKTU PIETEIKUMI UN NOSLĒGTIE LĪGUMI</span>
+		<hr style="height:3px;background-color:#66A443;border:0;" />
+		<div class="k_text">
+			<p style="text-align: justify;"><strong>Projekta pieteikumi:<br /></strong></p>
+
+							<table style="width: 100%;" border="1" cellspacing="0">
+				<tbody>
+				<tr>
+				<td style="background-color: #7aba3a;">Iesniedzējs</td>
+				<td style="width: 20%; text-align: center; background-color: #7aba3a;">Projektu iesniegumu skaits (gab.)</td>
+				<td style="width: 20%; text-align: center; background-color: #7aba3a;">Pieprasītais EKII finansējums (kopā, <em>euro</em>)</td>
+				<td style="width: 20%; text-align: center; background-color: #7aba3a;">Piešķirtais EKII finansējums (kopā, <em>euro</em>)</td>
+				<td style="width: 20%; text-align: center; background-color: #7aba3a;">Pieejamais EKII finansējums (kopā, <em>euro</em>)</td>
+				</tr>
+				<tr>
+				<td style="width: 20%;">Fiziska persona</td>
+				<td style="width: 20%; text-align: center;">17239</td>
+				<td style="width: 20%; text-align: right;">67 902 087,35</td>
+				<td style="width: 20%; text-align: right;">62 605 768,15</td>
+				<td style="width: 20%; text-align: right;">17 097 912,65</td>
+				</tr>
+				</tbody>
+				</table>
+			</div>
+			
+			
+			<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+				  panel.style.display = "none";
+				} else {
+				  panel.style.display = "block";
+				}
+			  });
+			}
+			</script>
+			
+				
+		<script>
+			document.querySelectorAll('.hover-img').forEach(img => {
+			img.addEventListener('mouseover', () => img.src = img.dataset.altSrc);
+			img.addEventListener('mouseout', () => img.src = img.getAttribute('data-alt-src').replace('_s.png', '.png'));
+			});
+		</script>
+		
+				<br />
+	</td>
+</tr><!-- end left menu & content -->
+	<tr>
+		<td colspan="2" width="988" height="125" class="footer">
+<div style="float: left;"><a href="https://www.kem.gov.lv/lv"><img src="images/KEM.png" align="middle" class="logo_partner" width="86" height="88" alt="KEM" /></a> </div>
+<div class="text" style="text-align:right;">
+<strong>SIA "VIDES INVESTĪCIJU FONDS"</strong><br />
+TĀLRUNIS: 25 480 151; 25 480 152; 25 480 153<br />
+</div>
+
+		</td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/load.js"></script>
+</body>
+</html>

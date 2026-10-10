@@ -1,0 +1,19 @@
+TAPIS
+TAPIS
+Teritorijas attīstības plānošanas informācijas sistēma
+×
+Dokumentu izstrāde
+Pieslēgties sistēmai
+Neizdodas pieslēgties?
+Teritorijas attīstības plānošanas informācijas sistēma (TAPIS) nodrošina: teritorijas attīstības plānošanas dokumentu izstrādes procesu atbalstu; visu plānošanas līmeņu teritorijas attīstības plānošanas dokumentu teksta un grafisko daļu datu izstrādi, publicēšanu un uzturēšanu; datu apmaiņu ar citām valsts informācijas sistēmām; publisko apspriešanu; elektronisko pakalpojumu saņemšanu.
+Dokumentu meklēšana un apskatīšana, līdzdalība publiskajā apspriešanā
+Atvērt ĢeoLatvija.lv
+Portālā ĢeoLatvija.lv sabiedrība - iedzīvotāji un komersanti var ērti meklēt un saņemt nepieciešamo teksta un grafisko informāciju par teritorijas attīstības plānošanu, tai skaitā, piedalīties plānošanas dokumenta publiskajās apspriešanās iesniedzot priekšlikumus elektroniski, kā arī saņemt paziņojumus par interesējošo dokumentu izstrādi. Portālā Latvija.lv var saņemt TAPIS sagatavotos elektroniskos pakalpojumus izziņu veidā.
+Neizdodas pieslēgties?
+Ja lietotājam pēc autentifikācijas sistēma atgriež kļūdas paziņojumu „Nav tiesību piekļūt šim resursam.”, tad tas nozīmē, ka nav piešķirtas lietotāja tiesības un nepieciešams sazināties ar Teritorijas attīstības plānošanas sistēmas (turpmāk - TAPIS) pārzini par tiesību izveidošanu. TAPIS tiesības plānošanas dokumentu izstrādes videi tiek piešķirtas uz iesnieguma pamata un pēc to piešķiršanas lietotājam pirmreizēji autentificējoties sistēmā ir jāpiekrīt sistēmas standarta izmantošanas noteikumiem. Par tiesību piešķiršanu vai autentificēšanās kļūdu gadījumā lūdzu sazināties ar TAPIS pārzini izmantojot tapis.palidziba@varam.gov.lv
+Aizvērt
+Viedās administrācijas un reģionālās attīstības ministrija
+Peldu iela 25, Rīga, LV-1494
+Tālrunis: 27 826 080, 26 824 756, e-pasts:
+tapis.palidziba@varam.gov.lv
+Versija: 2.2.5.2R.55a54 14.09.2026 17:59 (tapis_prod)

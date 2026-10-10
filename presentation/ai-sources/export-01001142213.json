@@ -1,0 +1,289 @@
+{
+  "app": "Vienotais Zemes Reģistrs",
+  "generated": "2026-10-09T21:30:48.715Z",
+  "cadastre": "01001142213",
+  "areaM2": 58287,
+  "point": {
+    "lat": 57.0334477363,
+    "lon": 24.1849134722
+  },
+  "applicantRegcode": null,
+  "parcelRequest": "https://geo-dpps.viss.gov.lv/api/DPPSPackage/client/Zemes_vien_423_0p2RBZ/5cc09e19-a238-4a2e-8eac-3a05cefa050e?service=WFS&version=2.0.0&request=GetFeature&typeNames=cp%3ACadastralParcel&featureID=CP01001142213",
+  "facts": [
+    {
+      "field": "ipasuma_kadastra_nr",
+      "label": "Kadastra numurs",
+      "value": "01001142213",
+      "status": "gaida",
+      "note": "",
+      "source": "VZD Kadastrs",
+      "fetchedAt": "2026-10-09T21:30:44.091Z",
+      "query": "",
+      "proof": "https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati"
+    },
+    {
+      "field": "ipasuma_apzimejums",
+      "label": "Kadastra apzīmējums",
+      "value": "01001142213",
+      "status": "gaida",
+      "note": "",
+      "source": "VZD Kadastrs",
+      "fetchedAt": "2026-10-09T21:30:44.093Z",
+      "query": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=f41f3ee3-5040-4c65-8c80-f71495c817d9&limit=40&q=01001142213",
+      "proof": "https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati"
+    },
+    {
+      "field": "ipasuma_adrese",
+      "label": "Adrese",
+      "value": "nav adreses šim numuram",
+      "status": "gaida",
+      "note": "",
+      "source": "VZD Kadastrs",
+      "fetchedAt": "2026-10-09T21:30:44.095Z",
+      "query": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=f41f3ee3-5040-4c65-8c80-f71495c817d9&limit=40&q=01001142213",
+      "proof": "https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati"
+    },
+    {
+      "field": "ipasuma_tiesibas",
+      "label": "Īpašuma tiesības",
+      "value": "Īpašnieks — fiziska persona",
+      "status": "gaida",
+      "note": "vārds un reģistrācijas numurs atvērtajā kopā nav publicēts",
+      "source": "VZD Kadastrs",
+      "fetchedAt": "2026-10-09T21:30:44.097Z",
+      "query": "",
+      "proof": "https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati"
+    },
+    {
+      "field": "zemesgramata",
+      "label": "Zemesgrāmata",
+      "value": "Nodalījums pēc kadastra nr. 01001142213",
+      "status": "gaida",
+      "note": "Īpašnieka vārds atvērtajos datos nav — pārbaudi Zemesgrāmatā.",
+      "source": "Zemesgrāmata",
+      "fetchedAt": "2026-10-09T21:30:44.099Z",
+      "query": "",
+      "proof": "https://zemesgramata.lv/lv/Search/GetFolioDataByCadastre?CadastreNumber=01001142213"
+    },
+    {
+      "field": "buvju_konturas",
+      "label": "Būves uz zemes vienības",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "Kadastrā uz šīs zemes vienības būvju kontūru nav.",
+      "source": "VZD Kadastrs",
+      "fetchedAt": "2026-10-09T21:30:44.104Z",
+      "query": "https://geo-dpps.viss.gov.lv/api/DPPSPackage/client/Ekas_un_bu_419_kg61P8/37f45682-3bd3-4df2-9e81-76364ad7d05b?service=WFS&version=2.0.0&request=GetFeature&typeNames=bu%3ABuilding&count=200&bbox=57.0320545%2C24.1827588%2C57.0348409%2C24.1870961%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4258",
+      "proof": "https://geolatvija.lv/main?geoProductId=135"
+    },
+    {
+      "field": "atis_apgrutinajumi",
+      "label": "Apgrūtinājumi (ATIS klasifikators)",
+      "value": "Jā — 8317010100 — Dzīvojamās apbūves zemei izvērtējamo apgrūtinājumu pārklājuma teritorija zemes kadastrālās vērtības aprēķinam · 8317020100 — Pārējās apbūves zemei izvērtējamo apgrūtinājumu pārklājuma teritorija zemes kadastrālās vērtības aprēķinam · 7311020400 — applūstošā (10 % applūduma varbūtība) teritorija · 7313040300 — dabas lieguma dabas lieguma zonas teritorija · 7311020206 — dabiskas ūdenstilpes vides un dabas resursu aizsardzības aizsargjoslas teritorija pilsētās un ciemos",
+      "status": "gaida",
+      "note": "",
+      "source": "VZD ATIS",
+      "fetchedAt": "2026-10-09T21:30:44.116Z",
+      "query": "",
+      "proof": "https://data.gov.lv/dati/lv/dataset/atis-datu-un-kadastra-objektu-apgrutinajumu-klasifikators"
+    },
+    {
+      "field": "pludi_10",
+      "label": "Applūstoša teritorija, reizi 10 gados",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "LVĢMC",
+      "fetchedAt": "2026-10-09T21:30:44.118Z",
+      "query": "https://geodata.lvgmc.lv/server/rest/services/Latvijas_pludu_riska_un_pludu_draudu_kartes_garumzimes/MapServer/identify?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%7D&geometryType=esriGeometryPoint&sr=4326&layers=all&tolerance=2&mapExtent=24.1809134722%2C57.0294477363%2C24.188913472200003%2C57.037447736299995&imageDisplay=800%2C800%2C96&returnGeometry=false",
+      "proof": "https://geolatvija.lv/main?geoProductId=309"
+    },
+    {
+      "field": "pludi_100",
+      "label": "Applūstoša teritorija, reizi 100 gados",
+      "value": "Jā — jūras vējuzplūdi",
+      "status": "gaida",
+      "note": "",
+      "source": "LVĢMC",
+      "fetchedAt": "2026-10-09T21:30:44.120Z",
+      "query": "https://geodata.lvgmc.lv/server/rest/services/Latvijas_pludu_riska_un_pludu_draudu_kartes_garumzimes/MapServer/identify?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%7D&geometryType=esriGeometryPoint&sr=4326&layers=all&tolerance=2&mapExtent=24.1809134722%2C57.0294477363%2C24.188913472200003%2C57.037447736299995&imageDisplay=800%2C800%2C96&returnGeometry=false",
+      "proof": "https://geolatvija.lv/main?geoProductId=309"
+    },
+    {
+      "field": "pludi_200",
+      "label": "Applūstoša teritorija, reizi 200 gados",
+      "value": "Jā — jūras vējuzplūdi",
+      "status": "gaida",
+      "note": "",
+      "source": "LVĢMC",
+      "fetchedAt": "2026-10-09T21:30:44.121Z",
+      "query": "https://geodata.lvgmc.lv/server/rest/services/Latvijas_pludu_riska_un_pludu_draudu_kartes_garumzimes/MapServer/identify?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%7D&geometryType=esriGeometryPoint&sr=4326&layers=all&tolerance=2&mapExtent=24.1809134722%2C57.0294477363%2C24.188913472200003%2C57.037447736299995&imageDisplay=800%2C800%2C96&returnGeometry=false",
+      "proof": "https://geolatvija.lv/main?geoProductId=309"
+    },
+    {
+      "field": "iadt",
+      "label": "Īpaši aizsargājama dabas teritorija",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "Ozols · DAP",
+      "fetchedAt": "2026-10-09T21:30:44.127Z",
+      "query": "https://ozols.gov.lv/kartes/rest/services/Hosted/%C4%AAADT_pamatteritorijas_bez_zon%C4%93juma/FeatureServer/0/query?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=name%2Ccategory&returnGeometry=false&resultRecordCount=8",
+      "proof": "https://ozols.gov.lv/pub"
+    },
+    {
+      "field": "ozols_mikroliegums",
+      "label": "Mikroliegums",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "Ozols · DAP",
+      "fetchedAt": "2026-10-09T21:30:44.130Z",
+      "query": "https://ozols.gov.lv/kartes/rest/services/Hosted/%C4%AAADT_pamatteritorijas_bez_zon%C4%93juma/FeatureServer/0/query?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=name%2Ccategory&returnGeometry=false&resultRecordCount=8",
+      "proof": "https://ozols.gov.lv/pub"
+    },
+    {
+      "field": "ozols_biotops",
+      "label": "Aizsargājams biotops",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "Ozols · DAP",
+      "fetchedAt": "2026-10-09T21:30:44.132Z",
+      "query": "https://ozols.gov.lv/kartes/rest/services/Hosted/%C4%AAADT_pamatteritorijas_bez_zon%C4%93juma/FeatureServer/0/query?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=name%2Ccategory&returnGeometry=false&resultRecordCount=8",
+      "proof": "https://ozols.gov.lv/pub"
+    },
+    {
+      "field": "kulturas_piemineklis",
+      "label": "Kultūras piemineklis",
+      "value": "",
+      "status": "nav_datu",
+      "note": "nav oficiālās adreses, ar ko meklēt NKMP sarakstā",
+      "source": "NKMP",
+      "fetchedAt": "2026-10-09T21:30:44.106Z",
+      "query": "",
+      "proof": "https://mantojums.lv/"
+    },
+    {
+      "field": "tapis_izmantosana",
+      "label": "Teritorijas izmantošana",
+      "value": "DA1, Dabas un apstādījumu teritorija · Ū1, Ūdeņu teritorija",
+      "status": "gaida",
+      "note": "",
+      "source": "TAPIS",
+      "fetchedAt": "2026-10-09T21:30:44.134Z",
+      "query": "https://tapis.gov.lv/izpl/geoserver/tapis_apvienotie/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=funkcionalais_zonejums&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.1827587525%2C57.0320545483%2C24.1870961255%2C57.0348409243%2CEPSG%3A4326&count=40",
+      "proof": "https://tapis.gov.lv/"
+    },
+    {
+      "field": "tapis_dokuments",
+      "label": "Teritorijas plānošanas dokuments",
+      "value": "Rīgas teritorijas plānojums - spēkā esošā konsolidētā versija, 2023-02-15Z",
+      "status": "gaida",
+      "note": "",
+      "source": "TAPIS",
+      "fetchedAt": "2026-10-09T21:30:44.136Z",
+      "query": "https://tapis.gov.lv/izpl/geoserver/tapis_apvienotie/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=funkcionalais_zonejums&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.1827587525%2C57.0320545483%2C24.1870961255%2C57.0348409243%2CEPSG%3A4326&count=40",
+      "proof": "https://tapis.gov.lv/"
+    },
+    {
+      "field": "buvniecibas_lieta",
+      "label": "Būvniecības lieta",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "BIS",
+      "fetchedAt": "2026-10-09T21:30:44.101Z",
+      "query": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=f41f3ee3-5040-4c65-8c80-f71495c817d9&limit=40&q=01001142213",
+      "proof": "https://bis.gov.lv/bisp/lv/planned_constructions"
+    },
+    {
+      "field": "es_projekti",
+      "label": "ES projekti šajā kadastrā",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "ES fondi",
+      "fetchedAt": "2026-10-09T21:30:44.123Z",
+      "query": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=fec77132-7058-4e28-b4fc-0772454b8041&limit=15&q=01001142213",
+      "proof": "https://data.gov.lv/dati/lv/dataset/es-lidzfinansetie-projekti"
+    },
+    {
+      "field": "cfla_atlases",
+      "label": "CFLA atvērtās atlases",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "Šobrīd CFLA ir 8 atvērtas atlases; neviena neatbilst šī gabala īpašnieka veidam vai komersantam adresē. 5 no tām ir ierobežotas — tikai nosauktām iestādēm (LVM, DAP, NVD u.c.), ne katram gabalam. Atbilstība uzlec, kad adresē ir UR komersants, īpašnieks ir pašvaldība / valsts, vai ievadi reģ. nr. augšā. Visas atvērtās: https://www.cfla.gov.lv/lv/2021-2027-programmas Atbilstība: īpašnieka veids un komersants adresē pret CFLA „kas var pieteikties”, tad nolikuma NACE, MVU un de minimis nosacījumi. MVU ir aplēse pēc viena uzņēmuma UR pārskata, bez saistītajiem uzņēmumiem. Palīgs: https://www.cfla.gov.lv/lv/paligs-projektu-iesniedzejiem",
+      "source": "CFLA",
+      "fetchedAt": "2026-10-09T21:30:44.141Z",
+      "query": "https://www.cfla.gov.lv/lv/2021-2027-programmas",
+      "proof": "https://www.cfla.gov.lv/lv/2021-2027-programmas"
+    },
+    {
+      "field": "ekii_atbalsts",
+      "label": "EKII mājsaimniecību AER",
+      "value": "Atbilst — īpašnieks ir fiziska persona — der EKII mājsaimniecību AER\nEKII-6 · Siltumnīcefekta gāzu emisiju samazināšana mājsaimniecībās – atbalsts atjaunojamo energoresursu izmantošanai\nIesniegumi: 15.03.2022 – 31.12.2029\nAtbalsta: saules paneļi / elektrostacija, siltumsūkņi, granulu katli, CSS pieslēgums\nNolikumā: max 15 000 EUR · intensitāte līdz 70 %\nhttps://ekii.lv/index.php?page=konkursi_lv&konkursi=EKII-6\n\nAtbilst — īpašnieks ir fiziska persona — der iedzīvotāju transporta atbalstam\nEKII-10 · Atbalsts bezemisiju un mazemisiju transportlīdzekļu iegādei\nIesniegumi: 11.05.2026 – 31.12.2029\nAtbalsta: bezemisiju / mazemisiju transportlīdzekļi\nhttps://ekii.lv/index.php?page=konkursi_lv&konkursi=EKII-10",
+      "status": "gaida",
+      "note": "ekii.lv tabula nav sasniedzama (EKII/LVIF lapa atbildēja 403); rādam LVIF/EKII mājsaimniecību programmas ar zināmo termiņu. 2 atbilst no 2 atvērtajiem EKII · pārējās neredzam, jo neatbilst šim gabalam. Atbilstība: fiziska persona vai juridiska bez UR komersanta → mājsaimniecību AER (EKII-6) un iedzīvotāju transports (EKII-10). data.gov.lv KPFI/EKII XLSX ir jau īstenotie projekti (pēdējais dumps ~2020), ne atvērtie konkursi — šeit nelasa.",
+      "source": "LVIF / EKII",
+      "fetchedAt": "2026-10-09T21:30:44.174Z",
+      "query": "https://ekii.lv/index.php?page=konkursi_lv",
+      "proof": "https://ekii.lv/index.php?page=konkursi_lv&konkursi=EKII-6"
+    },
+    {
+      "field": "liaa_atbalsts",
+      "label": "LIAA atbalsts uzņēmumam",
+      "value": "",
+      "status": "nav_datu",
+      "note": "LIAA katalogs ir par uzņēmumu, ne par kadastru. Šajā adresē nav UR komersanta (un nav ievadīta reģ. nr.).",
+      "source": "LIAA",
+      "fetchedAt": "2026-10-09T21:30:44.114Z",
+      "query": "",
+      "proof": "https://liaa.business.gov.lv/atbalsta-iespejas"
+    },
+    {
+      "field": "uznemumi_adrese",
+      "label": "Uzņēmumi un struktūrvienības adresē",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "nav VARIS adreses koda, ar ko meklēt UR",
+      "source": "Uzņēmumu reģistrs",
+      "fetchedAt": "2026-10-09T21:30:44.102Z",
+      "query": "",
+      "proof": "https://www.lursoft.lv/adresu-katalogs"
+    },
+    {
+      "field": "vid_reitings",
+      "label": "VID reitings",
+      "value": "",
+      "status": "nav_datu",
+      "note": "nav VARIS adreses koda un nav iesniedzēja numura",
+      "source": "VID",
+      "fetchedAt": "2026-10-09T21:30:44.108Z",
+      "query": "",
+      "proof": "https://data.gov.lv/dati/lv/dataset/nodoklu-maksataju-reitings"
+    },
+    {
+      "field": "de_minimis",
+      "label": "De minimis atbalsts",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "Finanšu ministrija",
+      "fetchedAt": "2026-10-09T21:30:44.110Z",
+      "query": "",
+      "proof": "https://data.gov.lv/dati/dataset/pieskirtais-de-minimis-atbalsts-latvija"
+    },
+    {
+      "field": "iepirkumi",
+      "label": "Publiskais iepirkums",
+      "value": "Nē",
+      "status": "gaida",
+      "note": "",
+      "source": "EIS",
+      "fetchedAt": "2026-10-09T21:30:44.112Z",
+      "query": "",
+      "proof": "https://www.eis.gov.lv/"
+    }
+  ]
+}

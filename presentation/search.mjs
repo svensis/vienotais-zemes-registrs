@@ -1,0 +1,17 @@
+import { chromium } from 'playwright';
+const q = process.argv[2] || 'Kaļķu iela 1, Rīga';
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 2 });
+page.on('pageerror', (e) => console.log('pageerror:', e.message));
+await page.goto('http://localhost:5173/#/');
+await page.waitForTimeout(1500);
+await page.fill('.search-field input', q);
+await page.waitForTimeout(2500);
+await page.screenshot({ path: 'shots/search1.png' });
+await page.press('.search-field input', 'Enter');
+await page.waitForTimeout(16000);
+await page.screenshot({ path: 'shots/search2.png' });
+await page.locator('.panel-scroll').evaluate((el) => { el.scrollTop = 520; });
+await page.waitForTimeout(500);
+await page.screenshot({ path: 'shots/search3.png' });
+await browser.close();

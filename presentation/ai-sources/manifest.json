@@ -1,0 +1,198 @@
+{
+  "cadastre": "01001142213",
+  "sources": [
+    "VZD Kadastrs",
+    "Zemesgrāmata",
+    "VZD ATIS",
+    "LVĢMC",
+    "Ozols · DAP",
+    "NKMP",
+    "TAPIS",
+    "BIS",
+    "ES fondi",
+    "CFLA",
+    "LVIF / EKII",
+    "LIAA",
+    "Uzņēmumu reģistrs",
+    "VID",
+    "Finanšu ministrija",
+    "EIS"
+  ],
+  "urls": [
+    {
+      "id": "01",
+      "url": "https://geo-dpps.viss.gov.lv/api/DPPSPackage/client/Zemes_vien_423_0p2RBZ/5cc09e19-a238-4a2e-8eac-3a05cefa050e?service=WFS&version=2.0.0&request=GetFeature&typeNames=cp%3ACadastralParcel&featureID=CP01001142213",
+      "status": 200,
+      "ok": true,
+      "bytes": 34327
+    },
+    {
+      "id": "02",
+      "url": "https://data.gov.lv/dati/lv/dataset/kadastra-informacijas-sistemas-atvertie-dati",
+      "status": 200,
+      "ok": true,
+      "bytes": 49384
+    },
+    {
+      "id": "03",
+      "url": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=f41f3ee3-5040-4c65-8c80-f71495c817d9&limit=40&q=01001142213",
+      "status": 200,
+      "ok": true,
+      "bytes": 1377
+    },
+    {
+      "id": "04",
+      "url": "https://zemesgramata.lv/lv/Search/GetFolioDataByCadastre?CadastreNumber=01001142213",
+      "status": -1,
+      "ok": false,
+      "bytes": 0
+    },
+    {
+      "id": "05",
+      "url": "https://geo-dpps.viss.gov.lv/api/DPPSPackage/client/Ekas_un_bu_419_kg61P8/37f45682-3bd3-4df2-9e81-76364ad7d05b?service=WFS&version=2.0.0&request=GetFeature&typeNames=bu%3ABuilding&count=200&bbox=57.0320545%2C24.1827588%2C57.0348409%2C24.1870961%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4258",
+      "status": 200,
+      "ok": true,
+      "bytes": 943
+    },
+    {
+      "id": "06",
+      "url": "https://geolatvija.lv/main?geoProductId=135",
+      "status": 200,
+      "ok": true,
+      "bytes": 650
+    },
+    {
+      "id": "07",
+      "url": "https://data.gov.lv/dati/lv/dataset/atis-datu-un-kadastra-objektu-apgrutinajumu-klasifikators",
+      "status": 200,
+      "ok": true,
+      "bytes": 37986
+    },
+    {
+      "id": "08",
+      "url": "https://geodata.lvgmc.lv/server/rest/services/Latvijas_pludu_riska_un_pludu_draudu_kartes_garumzimes/MapServer/identify?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%7D&geometryType=esriGeometryPoint&sr=4326&layers=all&tolerance=2&mapExtent=24.1809134722%2C57.0294477363%2C24.188913472200003%2C57.037447736299995&imageDisplay=800%2C800%2C96&returnGeometry=false",
+      "status": 200,
+      "ok": true,
+      "bytes": 6072
+    },
+    {
+      "id": "09",
+      "url": "https://geolatvija.lv/main?geoProductId=309",
+      "status": 200,
+      "ok": true,
+      "bytes": 650
+    },
+    {
+      "id": "10",
+      "url": "https://ozols.gov.lv/kartes/rest/services/Hosted/%C4%AAADT_pamatteritorijas_bez_zon%C4%93juma/FeatureServer/0/query?f=json&geometry=%7B%22x%22%3A24.1849134722%2C%22y%22%3A57.0334477363%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=name%2Ccategory&returnGeometry=false&resultRecordCount=8",
+      "status": 200,
+      "ok": true,
+      "bytes": 329
+    },
+    {
+      "id": "11",
+      "url": "https://ozols.gov.lv/pub",
+      "status": 200,
+      "ok": true,
+      "bytes": 3443
+    },
+    {
+      "id": "12",
+      "url": "https://mantojums.lv/",
+      "status": -1,
+      "ok": false,
+      "bytes": 0
+    },
+    {
+      "id": "13",
+      "url": "https://tapis.gov.lv/izpl/geoserver/tapis_apvienotie/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=funkcionalais_zonejums&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.1827587525%2C57.0320545483%2C24.1870961255%2C57.0348409243%2CEPSG%3A4326&count=40",
+      "status": 200,
+      "ok": true,
+      "bytes": 1933941
+    },
+    {
+      "id": "14",
+      "url": "https://tapis.gov.lv/",
+      "status": 200,
+      "ok": true,
+      "bytes": 7804
+    },
+    {
+      "id": "15",
+      "url": "https://bis.gov.lv/bisp/lv/planned_constructions",
+      "status": 200,
+      "ok": true,
+      "bytes": 111288
+    },
+    {
+      "id": "16",
+      "url": "https://data.gov.lv/dati/lv/api/3/action/datastore_search?resource_id=fec77132-7058-4e28-b4fc-0772454b8041&limit=15&q=01001142213",
+      "status": 200,
+      "ok": true,
+      "bytes": 828
+    },
+    {
+      "id": "17",
+      "url": "https://data.gov.lv/dati/lv/dataset/es-lidzfinansetie-projekti",
+      "status": 200,
+      "ok": true,
+      "bytes": 48207
+    },
+    {
+      "id": "18",
+      "url": "https://www.cfla.gov.lv/lv/2021-2027-programmas",
+      "status": 200,
+      "ok": true,
+      "bytes": 192026
+    },
+    {
+      "id": "19",
+      "url": "https://ekii.lv/index.php?page=konkursi_lv",
+      "status": 200,
+      "ok": true,
+      "bytes": 18493
+    },
+    {
+      "id": "20",
+      "url": "https://ekii.lv/index.php?page=konkursi_lv&konkursi=EKII-6",
+      "status": 200,
+      "ok": true,
+      "bytes": 96961
+    },
+    {
+      "id": "21",
+      "url": "https://liaa.business.gov.lv/atbalsta-iespejas",
+      "status": 200,
+      "ok": true,
+      "bytes": 655973
+    },
+    {
+      "id": "22",
+      "url": "https://www.lursoft.lv/adresu-katalogs",
+      "status": 200,
+      "ok": true,
+      "bytes": 92409
+    },
+    {
+      "id": "23",
+      "url": "https://data.gov.lv/dati/lv/dataset/nodoklu-maksataju-reitings",
+      "status": 200,
+      "ok": true,
+      "bytes": 31205
+    },
+    {
+      "id": "24",
+      "url": "https://data.gov.lv/dati/dataset/pieskirtais-de-minimis-atbalsts-latvija",
+      "status": 200,
+      "ok": true,
+      "bytes": 34196
+    },
+    {
+      "id": "25",
+      "url": "https://www.eis.gov.lv/",
+      "status": 200,
+      "ok": true,
+      "bytes": 73289
+    }
+  ]
+}

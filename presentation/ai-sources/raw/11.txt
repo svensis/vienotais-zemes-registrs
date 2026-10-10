@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>OZOLS publiskās pieejas versija</title>
+
+    <link href="https://ozols.gov.lv/pub/Scripts/App/Themes/dojo-theme-flat-dap/dojo/flat.css" rel="stylesheet" type="text/css" />
+    <link href="https://ozols.gov.lv/pub/Scripts/App/Themes/dojo-theme-flat-dap/dgrid/css/dgrid.css" rel="stylesheet" type="text/css" />
+    <link href="https://ozols.gov.lv/pub/Scripts/App/Themes/dojo-theme-flat-dap/dgrid/css/skins/skin.css" rel="stylesheet" type="text/css" />
+	<link href="https://ozols.gov.lv/pub/Scripts/App/Themes/font-awesome-master/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://ozols.gov.lv/pub/Scripts/App/Themes/dap.css" rel="stylesheet" type="text/css" />
+
+    <link href="/arcgis_js_v319_api/arcgis_js_api/library/3.19/3.19/esri/css/esri.css" rel="stylesheet" type="text/css" />
+    <link href="/mc2dojo/themes/dijit.css" rel="stylesheet" type="text/css" />
+
+    <script>
+    var _moduleName = "dap";
+    var SERVER_APP_URL = location.protocol + '//' + location.host + '/' + 'pub' + '/';
+    var _jsapiURL = SERVER_APP_URL + "../arcgis_js_v319_api/arcgis_js_api/library/3.19/3.19";
+    var SERVER_PROXY = SERVER_APP_URL + 'proxy.ashx?';
+    dojoConfig = {
+        async: true,
+        locale: 'lv',
+        packages: [
+            { 'name': 'dojo', 'location': _jsapiURL + '/dojo' },
+            { 'name': 'dijit', 'location': _jsapiURL + '/dijit' },
+            { 'name': 'dojox', 'location': _jsapiURL + '/dojox' },
+            { 'name': 'esri', 'location': _jsapiURL + '/esri' },
+            { 'name': 'xstyle', 'location': _jsapiURL + '/xstyle' },
+            { 'name': 'dgrid1', 'location': _jsapiURL + '/dgrid1' },
+            { 'name': 'dgrid', 'location': _jsapiURL + '/dgrid' },
+            { 'name': 'dstore', 'location': _jsapiURL + '/dstore' },
+            { 'name': 'put-selector', 'location': _jsapiURL + '/put-selector' },
+            { 'name': 'moment', 'location': _jsapiURL + '/moment', 'main': 'moment' },
+            { 'name': _moduleName, 'location': SERVER_APP_URL + 'Scripts/App' },
+            { 'name': 'mc', 'location': location.protocol + '//' + location.host + '/mc2core' },
+            { 'name': 'mcdojo', 'location': location.protocol + '//' + location.host + '/mc2dojo' }
+        ]
+    };
+    </script>
+    <script src='/arcgis_js_v319_api/arcgis_js_api/library/3.19/3.19/init.js'></script>
+	<script src='/mc2core/MC2Core.js'></script>
+	<script src='/mc2dojo/MC2Dojo.js'></script>
+    <script>require([_moduleName + '/base']);</script>
+
+    <script>
+    if (SERVER_APP_URL.indexOf("localhost") == -1)
+    {
+        (function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })
+        (window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-66505071-2', 'auto');
+        ga('send', 'pageview');
+    }
+    else {
+        console.log('dev layout: google analytics disabled');
+    }
+    </script>
+</head>
+<body class ="dap">
+    
+<div id="layoutNode" style="width:100%; height:100%;"></div>
+
+
+
+</body>
+</html>
