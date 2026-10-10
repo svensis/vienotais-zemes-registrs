@@ -1,17 +1,11 @@
 # Dependencies and build
 node_modules/
 dist/
-presentation/node_modules/
-presentation/.venv/
 
 # Local data — cadastre index (~1,5 GB) and flood tile cache
 data/*.sqlite
 data/*.sqlite-*
 data/tiles/
-
-# Presentation recording leftovers (raw WebM; mp4/pptx stay in the repo)
-presentation/clips/raw/
-presentation/~$*
 
 # OS / editor / logs
 .DS_Store

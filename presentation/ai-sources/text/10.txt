@@ -1,1 +1,0 @@
-{"features":[],"exceededTransferLimit":false,"objectIdFieldName":"objectid","fields":[{"modelName":"NAME","defaultValue":null,"name":"name","length":200,"alias":"Nosaukums","type":"esriFieldTypeString"},{"modelName":"CATEGORY","defaultValue":null,"name":"category","length":50,"alias":"Kategorija","type":"esriFieldTypeString"}]}

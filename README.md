@@ -53,7 +53,6 @@ Produkcijas režīms: `npm run build && npm start`.
 ## Dokumentācija
 
 - [`docs/ARHITEKTURA.md`](docs/ARHITEKTURA.md) — kā tas strādā un kā dati tiek saņemti tehniski
-- [`presentation/`](presentation) — hakatona prezentācija (10 min) un ekrāna ierakstu rīki
 
 ## Licence
 
